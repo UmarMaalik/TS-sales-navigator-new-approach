@@ -107,5 +107,9 @@ export async function ExtractData(page:Page):Promise<ProfileData[]>{
     });
     console.log("the data is", profiles);
     console.log("the total records are", profiles.length);
+    if(profiles)
+    {
+      
+    }
     return profiles;
 }
