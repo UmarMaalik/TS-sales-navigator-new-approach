@@ -57,22 +57,23 @@ puppeteer
     await page.type("#global-typeahead-search-input", `${JobTitle} ${Industy}`);
     await page.keyboard.press("Enter");
     await randomTimeout(5, 12);
-    for (let i = 0; i < 1; i++) {
-       await temp(page);
+    const aviarry:any[]=[];
+    for (let i = 0; i < 3; i++) {
+       let non=await temp(page);
       // console.log("the temp value is", tempvalue);
-      // for (let entry of tempvalue) {
-      //   biglist.push(entry);
-      // }
-      // await page.waitForSelector(
-      //   ".artdeco-pagination__button.artdeco-pagination__button--next",
-      //   { timeout: 10000 }
-      // );
-      // await page.click(
-      //   ".artdeco-pagination__button.artdeco-pagination__button--next"
-      // );
+      for (let entry of non) {
+        aviarry.push(entry);
+      }
+      await page.waitForSelector(
+        ".artdeco-pagination__button.artdeco-pagination__button--next",
+        { timeout: 10000 }
+      );
+      await page.click(
+        ".artdeco-pagination__button.artdeco-pagination__button--next"
+      );
     }
-    console.log("the big list is", biglist);
-    const jsonData = JSON.stringify(biglist, null, 2);
+    console.log("the big list is", aviarry);
+    const jsonData = JSON.stringify(aviarry, null, 2);
     const FoutputPath: string = path.join(__dirname, "output/extracted.json");
     console.log("json data", jsonData);
 
