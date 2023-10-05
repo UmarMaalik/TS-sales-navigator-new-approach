@@ -1,4 +1,4 @@
-import { Page } from "puppeteer";
+import { Page,CDPSession } from "puppeteer";
 import { randomTimeout } from "../Timeout/Timeout";
 import { ElementHandle } from 'puppeteer';
 import { ProfileData } from "../models/ProfileData";
@@ -25,9 +25,10 @@ export async function temp(page: Page) {
 
   console.log("Total containers:", containers.length);
 let count=0
+let current =" "
   // Iterate over containers
   for (const container of containers) {
-
+// await scrollToElement(page,container);
     // const box = await container.boundingBox();
     // if(box)
     // {
@@ -37,8 +38,23 @@ let count=0
     //     window.scrollTo(scrollX, scrollY);
     //   }, scrollX, scrollY);
     // }
-    await container.evaluate((el) => el.scrollIntoView({ behavior: 'auto', block: 'start' }));
-    await randomTimeout(2,5)
+    const scrollOffset = -10; // Adjust this value as needed
+
+// Scroll the container to the calculated position
+await container.evaluate((el, offset) => {
+  el.scrollIntoView({ behavior: 'auto', block: 'center' });
+  el.scrollTop += offset;
+}, scrollOffset);
+//     await randomTimeout(2,5)
+//     try{
+//       await page.waitForSelector(".artdeco-entity-lockup__subtitle a",{ timeout: 10000 })
+//     }
+//     catch(e)
+//     {
+//       console.log("cannot find anchor tag to hover beforre hovering");
+      
+//     }
+   
     // Find anchor tag within the container
     const anchor = await container.$(".artdeco-entity-lockup__subtitle a");
     await randomTimeout(1,2)
@@ -51,11 +67,37 @@ let count=0
         // Hover over the anchor (you may need to wait for a tooltip or popup)
         await anchor.hover();
         await randomTimeout(3,6)
-        const anchor1 = await page.$(".entity-hovercard__title-container a");
+       await page.waitForSelector(".entity-hovercard__title-container a",{ timeout: 10000 })
+        let anchor1 = await page.$(".entity-hovercard__title-container a");
         console.log("the anchor1 is",anchor1);
+      
         
         let noon = await anchor1?.evaluate((node) => node.innerText.trim());
-        console.log("Hovered over anchor successfully.", noon); 
+        console.log("Hovered over anchor successfully.", noon);
+        console.log("the person name is ", tempname);
+        console.log("the value of current is:++++++++++++++>",current);
+        
+        while(noon==current)
+        {
+          console.log("in while");
+          
+          await anchor.hover();
+          anchor1 = await page.$(".entity-hovercard__title-container a");
+          noon = await anchor1?.evaluate((node) => node.innerText.trim());
+        }
+      
+        
+        // if(noon==current)
+        // {
+        //   await anchor.hover();
+        //   await randomTimeout(3,6)
+        //   const anchor1 = await page.$(".entity-hovercard__title-container a");
+        //   console.log("the anchor1 is",anchor1);
+          
+          
+        //   let noon = await anchor1?.evaluate((node) => node.innerText.trim());
+        //   console.log("Hovered again over anchor successfully.", noon);
+        // } 
         if(noon&&noon!==null)
         {
           // const isDuplicate = data.some((item) => item.name === tempname && item.Companyname === noon);
@@ -65,6 +107,7 @@ let count=0
               Companyname: noon,
             });
             count++;
+            current=noon;
           // }
           // data.push({
           //   name:tempname,
@@ -93,7 +136,7 @@ let count=0
 }
 
 async function scrollDown(page: Page) {
-  const scrollIncrement: number = 100;
+  const scrollIncrement: number = 150;
   let currentScroll: number = 0;
 
   const containerHeight: number = await page.$eval(
@@ -124,3 +167,34 @@ async function scrollDown(page: Page) {
     currentScroll = newScroll;
   }
 }
+
+
+
+
+
+
+// async function scrollToElement(page: Page, element: ElementHandle<Element>) {
+//   // Scroll the element into view
+//   await element.scrollIntoView();
+
+//   // Optionally, you can adjust the scroll position
+//   const scrollOffset = 0; // Adjust this value as needed
+//   await page.evaluate((offset) => {
+//     window.scrollBy(0, offset);
+//   }, scrollOffset);
+// }
+
+// Example usage:
+// const container = await page.$(yourContainerSelector);
+// await scrollToElement(page, container);
+
+
+// Example usage:
+// const container = await page.$(yourContainerSelector);
+// const session = await page.target().createCDPSession();
+// await scrollToContainer(page, session);
+
+
+// Example usage:
+// await scrollToElement(page, ".your-selector");
+

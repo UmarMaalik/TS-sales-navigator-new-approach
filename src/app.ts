@@ -16,7 +16,7 @@ puppeteer.use(pluginStealth());
 puppeteer.use(pluginAnonymizeUA());
 puppeteer
   .launch({
-    headless: false,
+    headless:false,
     slowMo: 100,
     protocolTimeout: 70000,
     args: ["--no-sandbox"],
@@ -58,12 +58,16 @@ puppeteer
     await page.keyboard.press("Enter");
     await randomTimeout(5, 12);
     const aviarry:any[]=[];
+    let pa:number=1;
     for (let i = 0; i < 3; i++) {
+      console.log("the current page is=>>>>>>>>>>>>>>>>>>>>> ",pa);
+      
        let non=await temp(page);
       // console.log("the temp value is", tempvalue);
       for (let entry of non) {
         aviarry.push(entry);
       }
+      try{
       await page.waitForSelector(
         ".artdeco-pagination__button.artdeco-pagination__button--next",
         { timeout: 10000 }
@@ -71,7 +75,16 @@ puppeteer
       await page.click(
         ".artdeco-pagination__button.artdeco-pagination__button--next"
       );
+      pa++;
+      }
+      catch(err)
+      {
+        console.log("cannot proceed to the next page",err);
+        
+      }
     }
+    console.log("number of pages visited:====",pa);
+    
     console.log("the big list is", aviarry);
     const jsonData = JSON.stringify(aviarry, null, 2);
     const FoutputPath: string = path.join(__dirname, "output/extracted.json");
