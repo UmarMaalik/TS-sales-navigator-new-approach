@@ -10,13 +10,14 @@ import { CompanyFilter } from "./filter/filter";
 import { ExtractData } from "./dataExtraction/Extraction";
 import { temp } from "./dataExtraction/temp";
 import { OtherInfoExtraction } from "./googleExtraction/OtherInfoExtraction";
+import { GoogleData } from "./models/googleData";
 // (async () => {
 
 puppeteer.use(pluginStealth());
 puppeteer.use(pluginAnonymizeUA());
 puppeteer
   .launch({
-    headless:'new',
+    headless:false,
     slowMo: 100,
     protocolTimeout: 70000,
     args: ["--no-sandbox"],
@@ -28,75 +29,75 @@ puppeteer
     const JobTitle: string = "CEO";
     const Industy: string = "blockchain";
     const biglist: ProfileData[] = [];
-    const NewList: ProfileData[]|undefined = [];
-    await randomTimeout(5, 9);
-    try {
-      const cookiesFilePath: string = path.join(
-        __dirname,
-        "Cookies/cookies.json"
-      );
+    const NewList: GoogleData[]|undefined = [];
+    // await randomTimeout(5, 9);
+    // try {
+    //   const cookiesFilePath: string = path.join(
+    //     __dirname,
+    //     "Cookies/cookies.json"
+    //   );
 
-      const cookiesData: string = fs.readFileSync(cookiesFilePath, "utf-8");
-      const cookies = JSON.parse(cookiesData);
-      await page.setCookie(...cookies);
-      await randomTimeout(5, 9);
-      // Now, 'cookies' contains the data from the JSON file, and you can use it in your code.
-    } catch (error) {
-      console.error("Error reading or parsing the JSON file:", error);
-    }
+    //   const cookiesData: string = fs.readFileSync(cookiesFilePath, "utf-8");
+    //   const cookies = JSON.parse(cookiesData);
+    //   await page.setCookie(...cookies);
+    //   await randomTimeout(5, 9);
+    //   // Now, 'cookies' contains the data from the JSON file, and you can use it in your code.
+    // } catch (error) {
+    //   console.error("Error reading or parsing the JSON file:", error);
+    // }
 
-    await page.goto(`${BaseUrl}`, { waitUntil: "load" });
-    await randomTimeout(5, 10);
-    await page.goto(
-      "https://www.linkedin.com/sales/search/people?viewAllFilters=true",
-      { waitUntil: "load" }
-    );
-    await randomTimeout(5, 10);
-    await CompanyFilter(page);
-    await randomTimeout(5, 7);
-    await page.type("#global-typeahead-search-input", `${JobTitle} ${Industy}`);
-    await page.keyboard.press("Enter");
-    await randomTimeout(5, 12);
-    const aviarry:any[]=[];
-    let pa:number=1;
-    for (let i = 0; i < 15; i++) {
-      console.log("the current page is=>>>>>>>>>>>>>>>>>>>>> ",pa);
+    // await page.goto(`${BaseUrl}`, { waitUntil: "load" });
+    // await randomTimeout(5, 10);
+    // await page.goto(
+    //   "https://www.linkedin.com/sales/search/people?viewAllFilters=true",
+    //   { waitUntil: "load" }
+    // );
+    // await randomTimeout(5, 10);
+    // await CompanyFilter(page);
+    // await randomTimeout(5, 7);
+    // await page.type("#global-typeahead-search-input", `${JobTitle} ${Industy}`);
+    // await page.keyboard.press("Enter");
+    // await randomTimeout(5, 12);
+    // const aviarry:any[]=[];
+    // let pa:number=1;
+    // for (let i = 0; i < 15; i++) {
+    //   console.log("the current page is=>>>>>>>>>>>>>>>>>>>>> ",pa);
       
-       let non=await temp(page);
-      // console.log("the temp value is", tempvalue);
-      for (let entry of non) {
-        aviarry.push(entry);
-      }
-      try{
-      await page.waitForSelector(
-        ".artdeco-pagination__button.artdeco-pagination__button--next",
-        { timeout: 10000 }
-      );
-      await page.click(
-        ".artdeco-pagination__button.artdeco-pagination__button--next"
-      );
-      pa++;
-      }
-      catch(err)
-      {
-        console.log("cannot proceed to the next page",err);
+    //    let non=await temp(page);
+    //   // console.log("the temp value is", tempvalue);
+    //   for (let entry of non) {
+    //     aviarry.push(entry);
+    //   }
+    //   try{
+    //   await page.waitForSelector(
+    //     ".artdeco-pagination__button.artdeco-pagination__button--next",
+    //     { timeout: 10000 }
+    //   );
+    //   await page.click(
+    //     ".artdeco-pagination__button.artdeco-pagination__button--next"
+    //   );
+    //   pa++;
+    //   }
+    //   catch(err)
+    //   {
+    //     console.log("cannot proceed to the next page",err);
         
-      }
-    }
-    console.log("number of pages visited:====",pa);
+    //   }
+    // }
+    // console.log("number of pages visited:====",pa);
     
-    console.log("the big list is", aviarry);
-    const jsonData = JSON.stringify(aviarry, null, 2);
+    // console.log("the big list is", aviarry);
+    // const jsonData = JSON.stringify(aviarry, null, 2);
     const FoutputPath: string = path.join(__dirname, "output/extracted.json");
-    console.log("json data", jsonData);
+    // console.log("json data", jsonData);
 
-    fs.writeFile(FoutputPath, jsonData, { encoding: "utf-8" }, (err) => {
-      if (err) {
-        console.error("Error writing file:", err);
-      } else {
-        console.log(`Data saved to ${FoutputPath}`);
-      }
-    });
+    // fs.writeFile(FoutputPath, jsonData, { encoding: "utf-8" }, (err) => {
+    //   if (err) {
+    //     console.error("Error writing file:", err);
+    //   } else {
+    //     console.log(`Data saved to ${FoutputPath}`);
+    //   }
+    // });
     // fs.readFile(FoutputPath, 'utf8', (err, data) => {
     //   if (err) {
     //     console.error('Error reading the file:', err);
@@ -121,38 +122,38 @@ puppeteer
     //     console.error('Error parsing JSON:', parseError);
     //   }
     // }) 
-//   let data;
+  let data;
 
-// try {
-//   const dataBuffer = fs.readFileSync(FoutputPath);
-//   const jsonData = JSON.parse(dataBuffer.toString());
-// // console.log("json data",jsonData);
-//   // Access the data object from the JSON file
-//    data = jsonData;
+try {
+  const dataBuffer = fs.readFileSync(FoutputPath);
+  const jsonData = JSON.parse(dataBuffer.toString());
+// console.log("json data",jsonData);
+  // Access the data object from the JSON file
+   data = jsonData;
 
-//   // Now you have your data in the "data" variable as an array of objects
-//   // console.log(data);
-// } catch (error) {
-//   console.error('Error reading the JSON file:', error);
-// }
-// console.log("the new data",data);
-// for(let entry of data) {
-//   const x=await OtherInfoExtraction(browser,entry);
-//   if(x)
-//   {
-//     NewList.push(x)
-//   }
+  // Now you have your data in the "data" variable as an array of objects
+  // console.log(data);
+} catch (error) {
+  console.error('Error reading the JSON file:', error);
+}
+console.log("the new data",data);
+for(let entry of data) {
+  const x=await OtherInfoExtraction(browser,entry);
+  if(x)
+  {
+    NewList.push(x)
+  }
 
-// //   console.log("app.ts data",x);
-// }
-// console.log("the new biglist is",NewList);
+//   console.log("app.ts data",x);
+}
+console.log("the new biglist is",NewList);
 
-// // for(let i=0;i<1;i++)
-// // {
-// //   const x=await OtherInfoExtraction(browser,data[i]);
-// //   console.log("app.ts data",x);
+// for(let i=0;i<1;i++)
+// {
+//   const x=await OtherInfoExtraction(browser,data[i]);
+//   console.log("app.ts data",x);
   
-// // }
+// }
 
  
   });
