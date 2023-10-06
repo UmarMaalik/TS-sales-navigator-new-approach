@@ -16,7 +16,7 @@ puppeteer.use(pluginStealth());
 puppeteer.use(pluginAnonymizeUA());
 puppeteer
   .launch({
-    headless:false,
+    headless:'new',
     slowMo: 100,
     protocolTimeout: 70000,
     args: ["--no-sandbox"],
@@ -59,7 +59,7 @@ puppeteer
     await randomTimeout(5, 12);
     const aviarry:any[]=[];
     let pa:number=1;
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < 15; i++) {
       console.log("the current page is=>>>>>>>>>>>>>>>>>>>>> ",pa);
       
        let non=await temp(page);

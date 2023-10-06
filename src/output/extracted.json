@@ -45,11 +45,11 @@
   },
   {
     "name": "Mackenzie Spencer",
-    "Companyname": "K-Will - Blockchain Will in your hand"
+    "Companyname": "Deify"
   },
   {
     "name": "Greg Snow",
-    "Companyname": "K-Will - Blockchain Will in your hand"
+    "Companyname": "Blockchain Global Capital"
   },
   {
     "name": "Sheldon Bennett, MBA CFE",
@@ -72,8 +72,12 @@
     "Companyname": "Advantage Blockchain"
   },
   {
+    "name": "Daniel Higbee",
+    "Companyname": "The Carbon Blockchain, Inc."
+  },
+  {
     "name": "Sergio Chaverri",
-    "Companyname": "Advantage Blockchain"
+    "Companyname": "BlockAxess"
   },
   {
     "name": "Alex Allaire",
@@ -81,7 +85,7 @@
   },
   {
     "name": "Ash Bassili",
-    "Companyname": "American Blockchain Initiative"
+    "Companyname": "myLaminin"
   },
   {
     "name": "Justyna Osowska",
@@ -89,7 +93,7 @@
   },
   {
     "name": "Bianca Diosdado",
-    "Companyname": "Women in Blockchain Canada"
+    "Companyname": "Quire Blockchain Consulting"
   },
   {
     "name": "Aydin Kilic",
@@ -101,7 +105,7 @@
   },
   {
     "name": "Jonathan Capriola",
-    "Companyname": "ZeaMed"
+    "Companyname": "AI Blockchain Ventures"
   },
   {
     "name": "Brandon Webster",
@@ -109,15 +113,15 @@
   },
   {
     "name": "Scott Quiana",
-    "Companyname": "Campgrnds"
+    "Companyname": "Triangle Digital"
   },
   {
     "name": "Philip Falcone",
-    "Companyname": "Campgrnds"
+    "Companyname": "BlockchainTV"
   },
   {
     "name": "Karen Kilroy",
-    "Companyname": "Campgrnds"
+    "Companyname": "Kilroy Blockchain Corporation"
   },
   {
     "name": "Daniel Addison, MSHI",
@@ -129,11 +133,11 @@
   },
   {
     "name": "Tiffany A. Yu, MSc",
-    "Companyname": "Alluvial Rewards"
+    "Companyname": "DiversityQ"
   },
   {
     "name": "Dave Christensen",
-    "Companyname": "Alluvial Rewards"
+    "Companyname": "TNT Blockchain Inc"
   },
   {
     "name": "Akili Polee",
@@ -145,11 +149,15 @@
   },
   {
     "name": "Jon Trask",
-    "Companyname": "Varshney Capital Corp."
+    "Companyname": "Blockchain Guru"
   },
   {
     "name": "Sahil Banerjee",
     "Companyname": "Avatar Blockchain Inc."
+  },
+  {
+    "name": "Daniel Barry",
+    "Companyname": "BCAIV - BlockChain & AI Ventures"
   },
   {
     "name": "Akshar patel",
@@ -158,6 +166,10 @@
   {
     "name": "Karlo Turk",
     "Companyname": "Credit Metaverse"
+  },
+  {
+    "name": "Greg McGregor",
+    "Companyname": "Bright Apps LLC"
   },
   {
     "name": "Meghan Hendley Lopez",
@@ -173,7 +185,7 @@
   },
   {
     "name": "LaMont Jeppesen Leavitt",
-    "Companyname": "The Blockchain Academy LLC"
+    "Companyname": "innoviHealth"
   },
   {
     "name": "Ali Roushanzamir, MBA",
@@ -185,19 +197,19 @@
   },
   {
     "name": "Kyle Doran 🕔🌌⚛️",
-    "Companyname": "BEASY - Blockchain Made Easy"
+    "Companyname": "The Net VR"
   },
   {
     "name": "Calvin Wiese",
-    "Companyname": "BEASY - Blockchain Made Easy"
+    "Companyname": "Kalibrate Blockchain Corporation"
   },
   {
     "name": "Philip Meyer",
-    "Companyname": "BEASY - Blockchain Made Easy"
+    "Companyname": "Vaultavo"
   },
   {
     "name": "Hari S.",
-    "Companyname": "BEASY - Blockchain Made Easy"
+    "Companyname": "iCover"
   },
   {
     "name": "Dmitriy Nasyrov, PhD 🏆 Software development services",
@@ -205,7 +217,7 @@
   },
   {
     "name": "Andrew Zapotochnyi",
-    "Companyname": "Blockchain Web3, NFT Software Development DeFi Crypto FinTech - Pharos Production - software company"
+    "Companyname": "AZ Blockchain"
   },
   {
     "name": "Alison González",
@@ -218,13 +230,5 @@
   {
     "name": "Manuel Moinard",
     "Companyname": "Cryptos Fund Trading 🚀🌙"
-  },
-  {
-    "name": "Issa jérémy Victor",
-    "Companyname": "Camelcoin"
-  },
-  {
-    "name": "Michael A.",
-    "Companyname": "iDateMedia Dating Software"
   }
 ]

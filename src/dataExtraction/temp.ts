@@ -38,7 +38,7 @@ let current =" "
     //     window.scrollTo(scrollX, scrollY);
     //   }, scrollX, scrollY);
     // }
-    const scrollOffset = -10; // Adjust this value as needed
+    const scrollOffset = 10; // Adjust this value as needed
 
 // Scroll the container to the calculated position
 await container.evaluate((el, offset) => {
