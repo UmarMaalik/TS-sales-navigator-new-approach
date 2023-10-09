@@ -4,6 +4,7 @@ import {ElementHandle} from 'puppeteer'
 import { ProfileData } from "../models/ProfileData";
 import { GoogleData } from "../models/googleData";
 export async function OtherInfoExtraction(browser:Browser,entry:ProfileData){
+  try{
     let currenturl:String =" ";
     const context = await browser.createIncognitoBrowserContext();
   const page = await context.newPage();
@@ -16,6 +17,8 @@ export async function OtherInfoExtraction(browser:Browser,entry:ProfileData){
   let updatedCompanyName =entry.Companyname.replace(emojiRegex,'').trim();
 console.log("the company name before removing emojis:",entry.Companyname);
 console.log("the company name after removing emojis:",updatedCompanyName);
+console.log("the person name is:",entry.name);
+
 
 
 
@@ -109,6 +112,10 @@ console.log("the company name after removing emojis:",updatedCompanyName);
   }
   
 await page.close()
+  }catch(err){
+    console.log("the error has occured",err);
+    
+  }
 
     
 }
