@@ -3,18 +3,35 @@ import { ProfileData } from "./models/ProfileData";
 import pluginStealth from "puppeteer-extra-plugin-stealth";
 import pluginAnonymizeUA from "puppeteer-extra-plugin-anonymize-ua";
 import { randomTimeout } from "./Timeout/Timeout";
+
 import fs from "fs";
-import { Page, ElementHandle } from "puppeteer";
+import {Cluster} from "puppeteer-cluster";
+import  {Page, ElementHandle } from "puppeteer";
 import path from "path";
 import { CompanyFilter } from "./filter/filter";
 import { ExtractData } from "./dataExtraction/Extraction";
 import { temp } from "./dataExtraction/temp";
 import { OtherInfoExtraction } from "./googleExtraction/OtherInfoExtraction";
 import { GoogleData } from "./models/googleData";
-// (async () => {
+import { Browser } from "puppeteer";
+
 
 puppeteer.use(pluginStealth());
 puppeteer.use(pluginAnonymizeUA());
+const run=async () => {
+  const maxBrowsers = 3;
+  const browsers: Browser[] = [];
+
+  for (let i = 0; i < maxBrowsers; i++) {
+    const browser = await puppeteer.launch({
+      headless: false,
+      slowMo: 100,
+      protocolTimeout: 70000,
+      args: ["--no-sandbox"],
+      executablePath: "C:/Program Files/Google/Chrome/Application/chrome.exe",
+    });
+    browsers.push(browser);
+  }
 puppeteer
   .launch({
     headless:false,
@@ -23,9 +40,9 @@ puppeteer
     args: ["--no-sandbox"],
     executablePath: "C:/Program Files/Google/Chrome/Application/chrome.exe",
   })
-  .then(async (browser) => {
+  // .then(async (browser) => {
     const BaseUrl: string = "https://www.linkedin.com/sales/home";
-    const page: Page = await browser.newPage();
+    const page: Page = await browsers[0].newPage();
     const JobTitle: string = "CEO";
     const Industy: string = "blockchain";
     const biglist: ProfileData[] = [];
@@ -137,16 +154,84 @@ try {
   console.error('Error reading the JSON file:', error);
 }
 console.log("the new data",data);
-for(let entry of data) {
-  const x=await OtherInfoExtraction(browser,entry);
-  if(x)
-  {
-    NewList.push(x)
+const clusterPromises = [];
+let browserCounter = 0;
+  // Create a new instance of Cluster
+  const cluster = await Cluster.launch({
+    concurrency: Cluster.CONCURRENCY_CONTEXT,
+    maxConcurrency: 3, // Set the maximum concurrency here
+  
+  });
+
+  await cluster.task(async ({ page, data }) => {
+    try {
+      const browser = browsers[browserCounter]; // Get the browser based on the counter
+      browserCounter = (browserCounter + 1) % maxBrowsers; // Increment the counter, loop back if needed
+
+      const x = await OtherInfoExtraction(browser, data);
+
+      if (x) {
+        NewList.push(x);
+      }
+
+      console.log("app.ts data", x);
+    } catch (error) {
+      console.error("An error occurred while processing:", error);
+    }
+  });
+
+  // Rest of your code
+
+
+
+  // Queue all entries for parallel processing
+  for (const entry of data) {
+    // clusterPromises.push(cluster.queue(entry));
+    cluster.queue(entry); 
+   }
+
+  // Wait for all tasks to finish
+  // await Promise.all(clusterPromises);
+  // for (const browser of browsers) {
+  //   try{
+  //     await randomTimeout(4,7)
+  //     await browser.close();
+  //   }catch(err)
+  //   {
+  //     console.log("error while closing browser", err);
+      
+  //   }
+   
+  // }
+  await cluster.idle();
+  await cluster.close();
+
+
+
+  console.log("the new list is",NewList);
+  const jsonData = JSON.stringify(NewList, null, 2);
+
+// Define the output file path
+const outputFilePath = path.join(__dirname, "output/newList.json");
+
+// Write the JSON data to the file
+fs.writeFile(outputFilePath, jsonData, "utf-8", (err) => {
+  if (err) {
+    console.error("Error writing file:", err);
+  } else {
+    console.log(`Data saved to ${outputFilePath}`);
   }
+});
+// for(let entry of data) {
+//   const x=await OtherInfoExtraction(browser,entry);
+//   if(x)
+//   {
+//     NewList.push(x)
+//   }
 
 //   console.log("app.ts data",x);
-}
-console.log("the new biglist is",NewList);
+// }
+// console.log("the new biglist is",NewList);
 
 // for(let i=0;i<1;i++)
 // {
@@ -156,5 +241,6 @@ console.log("the new biglist is",NewList);
 // }
 
  
-  });
+  };
+  run();
 // })
