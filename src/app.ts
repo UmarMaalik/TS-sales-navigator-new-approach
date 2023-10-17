@@ -77,7 +77,7 @@ puppeteer
     await randomTimeout(5, 12);
     const aviarry:any[]=[];
     let pa:number=1;
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < 25; i++) {
       console.log("the current page is=>>>>>>>>>>>>>>>>>>>>> ",pa);
       
        let non=await temp(page);
