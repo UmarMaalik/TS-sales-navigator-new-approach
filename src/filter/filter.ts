@@ -19,7 +19,7 @@ export async function CompanyFilter(page:Page){
           }
         }
       }, fieldsetTitle);
-      await randomTimeout(5,10)
+      await randomTimeout(7,10)
   await page.type(".artdeco-typeahead__input.search-filter__focus-target--input", "North America");
   const title:string = "Include “North America” in Company headquarters location filter";
 
@@ -40,7 +40,7 @@ export async function CompanyFilter(page:Page){
       }
     }
   }, title);
-  await randomTimeout(5,10)
+  await randomTimeout(7,10)
   await page.type(".artdeco-typeahead__input.search-filter__focus-target--input", "United States");
   await randomTimeout(4,7)
   const title1:string = "Include “United States” in Company headquarters location filter";

@@ -20,6 +20,7 @@
     "deep-email-validator": "^0.1.21",
     "dns": "^0.2.2",
     "nano": "^10.1.2",
+    "nodemailer": "^6.9.6",
     "puppeteer": "^21.3.1",
     "puppeteer-cluster": "^0.23.0",
     "puppeteer-extra": "^3.3.6",
