@@ -14,8 +14,8 @@ import { temp } from "./dataExtraction/temp";
 import { OtherInfoExtraction } from "./googleExtraction/OtherInfoExtraction";
 import { GoogleData } from "./models/googleData";
 import { Browser } from "puppeteer";
-
-
+import {CreateCombo} from "./CreateCombo/combo"
+import { VerifiedEmails } from "./models/VerifiedEmail";
 puppeteer.use(pluginStealth());
 puppeteer.use(pluginAnonymizeUA());
 const run=async () => {
@@ -65,8 +65,8 @@ puppeteer
 
     await page.goto(`${BaseUrl}`, { waitUntil: "load" });
     await randomTimeout(5, 10);
-    await page.goto(
-      "https://www.linkedin.com/sales/search/people?viewAllFilters=true",
+    await page.goto( 
+      "https://www.linkedin.com/sales/search/people?viewAllFilters=true",   
       { waitUntil: "load" }
     );
     await randomTimeout(5, 10);
@@ -77,7 +77,7 @@ puppeteer
     await randomTimeout(5, 12);
     const aviarry:any[]=[];
     let pa:number=1;
-    for (let i = 0; i < 25; i++) {
+    for (let i = 0; i < 1; i++) {
       console.log("the current page is=>>>>>>>>>>>>>>>>>>>>> ",pa);
       
        let non=await temp(page);
@@ -116,22 +116,10 @@ puppeteer
        
       }
     });
-    await Mailto(`<h1>step one completed</h1>`,false)
+    // await Mailto(`<h1>step one completed</h1>`,false)   
    
-  let data;
+  let data=aviarry;
 
-try {
-  const dataBuffer = fs.readFileSync(FoutputPath);
-  const jsonData = JSON.parse(dataBuffer.toString());
-// console.log("json data",jsonData);
-  // Access the data object from the JSON file
-   data = jsonData;
-
-  // Now you have your data in the "data" variable as an array of objects
-  // console.log(data);
-} catch (error) {
-  console.error('Error reading the JSON file:', error);
-}
 console.log("the new data",data);
 const clusterPromises = [];
 let browserCounter = 0;
@@ -183,14 +171,30 @@ const outputFilePath = path.join(__dirname, "output/newList.json");
 // Write the JSON data to the file
 fs.writeFile(outputFilePath, jsonData1, "utf-8", (err) => {
   if (err) {
+   
     console.error("Error writing file:", err);
   } else {
     console.log(`Data saved to ${outputFilePath}`);
   }
 });
-await Mailto(`<h1>step two completed</h1>`,false)
+// await Mailto(`<h1>step two completed</h1>`,false)
 
+  const VerifiedEmails:VerifiedEmails[] = await CreateCombo(NewList);
 
+  console.log("the very good data is ",VerifiedEmails);
+  const jsonData2 = JSON.stringify(VerifiedEmails, null, 2);
+
+  // Define the output file path
+  const outputFilePath1 = path.join(__dirname, "output/VerifiedEmails.json");
+  
+  // Write the JSON data to the file
+  fs.writeFile(outputFilePath1, jsonData2, "utf-8", (err) => {
+    if (err) {
+      console.error("Error writing file:", err);
+    } else {
+      console.log(`Data saved to ${outputFilePath1}`);
+    }
+  });
 
 
  

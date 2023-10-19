@@ -50,6 +50,9 @@ export async function Companyprofile(
         const Type = divType?.innerText;
         const Founded = divFounded?.innerText;
 
+
+        
+
         
           return {
             name: entry.name,
@@ -68,7 +71,7 @@ export async function Companyprofile(
     );
 
     await randomTimeout(3, 5);
-
+console.log("the masla is ",profiles)
     return profiles;
   } catch (err) {
     console.error("An error occurred:", err);
