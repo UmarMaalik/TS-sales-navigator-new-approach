@@ -5,8 +5,14 @@ import { ProfileData } from "../models/ProfileData";
 
 export async function temp(page: Page) {
   const data:any[]=[];
+  try{
   await page.waitForSelector(".artdeco-list__item", { timeout: 10000 });
-
+  }
+  catch(err){
+    console.log("the lsit not found");
+    return null;
+    
+  }
   try {
     await page.waitForSelector(".artdeco-entity-lockup__subtitle", {
       timeout: 50000,

@@ -3,6 +3,7 @@ import { ProfileData } from "./models/ProfileData";
 import pluginStealth from "puppeteer-extra-plugin-stealth";
 import pluginAnonymizeUA from "puppeteer-extra-plugin-anonymize-ua";
 import { randomTimeout } from "./Timeout/Timeout";
+const XLSX=require("xlsx")
 import {Mailto} from './Nodemailer/mail'
 import fs from "fs";
 import {Cluster} from "puppeteer-cluster";
@@ -24,7 +25,7 @@ const run=async () => {
 
   for (let i = 0; i < maxBrowsers; i++) {
     const browser = await puppeteer.launch({
-      headless:'new',
+      headless:"new",
       slowMo: 100,
       protocolTimeout: 70000,
       args: ["--no-sandbox"],
@@ -32,14 +33,7 @@ const run=async () => {
     });
     browsers.push(browser);
   }
-puppeteer
-  .launch({
-    headless:'new',
-    slowMo: 100,
-    protocolTimeout: 70000,
-    args: ["--no-sandbox"],
-    executablePath: "C:/Program Files/Google/Chrome/Application/chrome.exe",
-  })
+
   // .then(async (browser) => {
     const BaseUrl: string = "https://www.linkedin.com/sales/home";
     const page: Page = await browsers[0].newPage();
@@ -47,6 +41,9 @@ puppeteer
     const Industy: string = "blockchain";
     const biglist: ProfileData[] = [];
     const NewList: GoogleData[]|undefined = [];
+    console.log("the console is ",Cluster);
+    
+    await Mailto(`<h1>scrapper has started</h1>`,false)
     await randomTimeout(5, 9);
     try {
       const cookiesFilePath: string = path.join(
@@ -82,9 +79,12 @@ puppeteer
       
        let non=await temp(page);
       // console.log("the temp value is", tempvalue);
+      if(non)
+      {
       for (let entry of non) {
         aviarry.push(entry);
       }
+    }
       try{
       await page.waitForSelector(
         ".artdeco-pagination__button.artdeco-pagination__button--next",
@@ -116,7 +116,7 @@ puppeteer
        
       }
     });
-    // await Mailto(`<h1>step one completed</h1>`,false)   
+    await Mailto(`<h1>step one completed</h1>`,false)   
    
   let data=aviarry;
 
@@ -177,7 +177,7 @@ fs.writeFile(outputFilePath, jsonData1, "utf-8", (err) => {
     console.log(`Data saved to ${outputFilePath}`);
   }
 });
-// await Mailto(`<h1>step two completed</h1>`,false)
+await Mailto(`<h1>step two completed</h1>`,false)
 
   const VerifiedEmails:VerifiedEmails[] = await CreateCombo(NewList);
 
@@ -195,8 +195,15 @@ fs.writeFile(outputFilePath, jsonData1, "utf-8", (err) => {
       console.log(`Data saved to ${outputFilePath1}`);
     }
   });
+  const filePath = path.join(__dirname,'output/emails.xlsx'); 
 
-
+  const worksheet=XLSX.utils.json_to_sheet(VerifiedEmails);
+  const workbook=XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(workbook,worksheet,"demo")
+  XLSX.write(workbook,{bookType:'xlsx',type:'buffer'})
+  XLSX.write(workbook,{bookType:'xlsx',type:'binary'})
+  XLSX.writeFile(workbook,filePath) 
+  await Mailto(`<h1>step three completed</h1>`,true,)
  
   };
   run();

@@ -1,5 +1,5 @@
 const nodemailer =require('nodemailer');
-export async function Mailto(body:string,attach:boolean,path?:string){
+export async function Mailto(body:string,attach:boolean){
     try{
   const transporter = nodemailer.createTransport({
    service:"gmail",
@@ -16,7 +16,7 @@ const mail = await transporter.sendMail({
   html:body, // html body
   attachments:attach?[{
     name:"ok1.xlsx",
-    path:path 
+    path:"../output/emails.xlsx"
   }]:null
 });
     }catch(error){

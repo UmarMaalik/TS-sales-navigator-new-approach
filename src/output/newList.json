@@ -1,1 +1,192 @@
-[]
+[
+  {
+    "name": "Philip Abraham ~ Strategy",
+    "Companyname": "CloudFaceUSA.com",
+    "website": "http://www.cloudfaceusa.com",
+    "Industry": "IT Services and IT Consulting",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Headquater location not found",
+    "Type": "Privately Held",
+    "Founded": "1980"
+  },
+  {
+    "name": "Alex Slocum",
+    "Companyname": "GOPX Blockchain Currency",
+    "website": "www.gopxmegaverse.com",
+    "Industry": "Blockchain Services",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Miramar, Florida",
+    "Type": "Public Company",
+    "Founded": "2020"
+  },
+  {
+    "name": "Daniel Armani, Ph.D.",
+    "Companyname": "Texas Blockchain Center LLC",
+    "website": "https://GovernPlanet.org",
+    "Industry": "IT Services and IT Consulting",
+    "CompanySize": "201-500 employees",
+    "Headquater": "Austin, Texas",
+    "Type": "Privately Held",
+    "Founded": "2019"
+  },
+  {
+    "name": "Matt Waters",
+    "Companyname": "Unchained Music",
+    "website": "https://www.unchainedmusic.io",
+    "Industry": "Musicians",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Denver, CO",
+    "Type": "Privately Held",
+    "Founded": "2021"
+  },
+  {
+    "name": "Jon Woodard",
+    "Companyname": "Wolfram Blockchain Labs",
+    "website": "https://www.wolframblockchainlabs.com/",
+    "Industry": "Software Development",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Champaign, IL",
+    "Type": "Privately Held",
+    "Founded": "When Founded not found"
+  },
+  {
+    "name": "Mackenzie Spencer",
+    "Companyname": "Deify",
+    "website": "Website not Found",
+    "Industry": "Blockchain Services",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Toronto",
+    "Type": "Privately Held",
+    "Founded": "When Founded not found"
+  },
+  {
+    "name": "Kyle Doran 🕔🌌⚛️",
+    "Companyname": "The Net VR",
+    "website": "https://www.thenetvr.com/",
+    "Industry": "Software Development",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Austin, Texas",
+    "Type": "Privately Held",
+    "Founded": "2019"
+  },
+  {
+    "name": "Jonathan Capriola",
+    "Companyname": "AI Blockchain Ventures",
+    "website": "https://www.aiblockchainventures.com/",
+    "Industry": "Software Development",
+    "CompanySize": "51-200 employees",
+    "Headquater": "Sarasota , Florida",
+    "Type": "Privately Held",
+    "Founded": "2022"
+  },
+  {
+    "name": "LaMont Jeppesen Leavitt",
+    "Companyname": "innoviHealth",
+    "website": "https://www.innovihealth.com/",
+    "Industry": "Hospitals and Health Care",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Spanish Fork, UT",
+    "Type": "Privately Held",
+    "Founded": "1997"
+  },
+  {
+    "name": "Pradeep Aswal",
+    "Companyname": "Blockchain Council",
+    "website": "https://www.blockchain-council.org",
+    "Industry": "E-Learning Providers",
+    "CompanySize": "51-200 employees",
+    "Headquater": "Covina, California",
+    "Type": "Privately Held",
+    "Founded": "2017"
+  },
+  {
+    "name": "Arnie Isaacs",
+    "Companyname": "Private Company",
+    "website": "http://buzz2bucks.com",
+    "Industry": "Advertising Services",
+    "CompanySize": "11-50 employees",
+    "Headquater": "New York, NY",
+    "Type": "Privately Held",
+    "Founded": "When Founded not found"
+  },
+  {
+    "name": "Richard Bunker",
+    "Companyname": "Inveniam",
+    "website": "https://inveniam.io/",
+    "Industry": "Financial Services",
+    "CompanySize": "51-200 employees",
+    "Headquater": "New York, NY",
+    "Type": "Privately Held",
+    "Founded": "2017"
+  },
+  {
+    "name": "Emma Arakelyan",
+    "Companyname": "BAJ Accelerator",
+    "website": "https://www.bajaccelerator.com/",
+    "Industry": "Venture Capital and Private Equity Principals",
+    "CompanySize": "11-50 employees",
+    "Headquater": "New York, New York",
+    "Type": "Partnership",
+    "Founded": "2020"
+  },
+  {
+    "name": "Friedrich Stahl",
+    "Companyname": "HP",
+    "website": "http://www.hp.com",
+    "Industry": "IT Services and IT Consulting",
+    "CompanySize": "10,001+ employees",
+    "Headquater": "Palo Alto, CA",
+    "Type": "Public Company",
+    "Founded": "When Founded not found"
+  },
+  {
+    "name": "Sergio Chaverri",
+    "Companyname": "BlockAxess",
+    "website": "https://www.blockaxess.io",
+    "Industry": "Financial Services",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Santa Fe, Cuajimalpa de Morelos, Ciudad de México",
+    "Type": "Privately Held",
+    "Founded": "2022"
+  },
+  {
+    "name": "Jim Angleton",
+    "Companyname": "Law Enforcement & Technology Federal Credit Union",
+    "website": "http://unitedpolicefcu.com",
+    "Industry": "Financial Services",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Miami, FL",
+    "Type": "Nonprofit",
+    "Founded": "1936"
+  },
+  {
+    "name": "Vladimir Lialine",
+    "Companyname": "TWIXSOFT",
+    "website": "https://Twixsoft.com",
+    "Industry": "Software Development",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Old Greenwich, Connecticut",
+    "Type": "Privately Held",
+    "Founded": "2015"
+  },
+  {
+    "name": "Eric Blue",
+    "Companyname": "Nevly",
+    "website": "https://nevly.com",
+    "Industry": "Financial Services",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Washington, DC",
+    "Type": "Privately Held",
+    "Founded": "2021"
+  },
+  {
+    "name": "Richard Groome",
+    "Companyname": "Notre-Dame Capital Inc.",
+    "website": "http://www.notredamecapital.com",
+    "Industry": "Financial Services",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Montreal, Quebec",
+    "Type": "Privately Held",
+    "Founded": "2006"
+  }
+]

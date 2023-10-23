@@ -27,6 +27,7 @@
     "puppeteer-extra-plugin-anonymize-ua": "^2.4.6",
     "puppeteer-extra-plugin-proxy": "^1.0.2",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
-    "telnet-client": "^2.0.8"
+    "telnet-client": "^2.0.8",
+    "xlsx": "^0.18.5"
   }
 }
