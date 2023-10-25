@@ -10,16 +10,6 @@
     "Founded": "1980"
   },
   {
-    "name": "Alex Slocum",
-    "Companyname": "GOPX Blockchain Currency",
-    "website": "www.gopxmegaverse.com",
-    "Industry": "Blockchain Services",
-    "CompanySize": "11-50 employees",
-    "Headquater": "Miramar, Florida",
-    "Type": "Public Company",
-    "Founded": "2020"
-  },
-  {
     "name": "Daniel Armani, Ph.D.",
     "Companyname": "Texas Blockchain Center LLC",
     "website": "https://GovernPlanet.org",
@@ -28,6 +18,16 @@
     "Headquater": "Austin, Texas",
     "Type": "Privately Held",
     "Founded": "2019"
+  },
+  {
+    "name": "Mackenzie Spencer",
+    "Companyname": "Deify",
+    "website": "Website not Found",
+    "Industry": "Blockchain Services",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Toronto",
+    "Type": "Privately Held",
+    "Founded": "When Founded not found"
   },
   {
     "name": "Matt Waters",
@@ -46,16 +46,6 @@
     "Industry": "Software Development",
     "CompanySize": "11-50 employees",
     "Headquater": "Champaign, IL",
-    "Type": "Privately Held",
-    "Founded": "When Founded not found"
-  },
-  {
-    "name": "Mackenzie Spencer",
-    "Companyname": "Deify",
-    "website": "Website not Found",
-    "Industry": "Blockchain Services",
-    "CompanySize": "11-50 employees",
-    "Headquater": "Toronto",
     "Type": "Privately Held",
     "Founded": "When Founded not found"
   },
@@ -100,14 +90,14 @@
     "Founded": "2017"
   },
   {
-    "name": "Arnie Isaacs",
-    "Companyname": "Private Company",
-    "website": "http://buzz2bucks.com",
-    "Industry": "Advertising Services",
+    "name": "Emma Arakelyan",
+    "Companyname": "BAJ Accelerator",
+    "website": "https://www.bajaccelerator.com/",
+    "Industry": "Venture Capital and Private Equity Principals",
     "CompanySize": "11-50 employees",
-    "Headquater": "New York, NY",
-    "Type": "Privately Held",
-    "Founded": "When Founded not found"
+    "Headquater": "New York, New York",
+    "Type": "Partnership",
+    "Founded": "2020"
   },
   {
     "name": "Richard Bunker",
@@ -120,23 +110,13 @@
     "Founded": "2017"
   },
   {
-    "name": "Emma Arakelyan",
-    "Companyname": "BAJ Accelerator",
-    "website": "https://www.bajaccelerator.com/",
-    "Industry": "Venture Capital and Private Equity Principals",
+    "name": "Arnie Isaacs",
+    "Companyname": "Private Company",
+    "website": "http://buzz2bucks.com",
+    "Industry": "Advertising Services",
     "CompanySize": "11-50 employees",
-    "Headquater": "New York, New York",
-    "Type": "Partnership",
-    "Founded": "2020"
-  },
-  {
-    "name": "Friedrich Stahl",
-    "Companyname": "HP",
-    "website": "http://www.hp.com",
-    "Industry": "IT Services and IT Consulting",
-    "CompanySize": "10,001+ employees",
-    "Headquater": "Palo Alto, CA",
-    "Type": "Public Company",
+    "Headquater": "New York, NY",
+    "Type": "Privately Held",
     "Founded": "When Founded not found"
   },
   {
@@ -148,6 +128,16 @@
     "Headquater": "Santa Fe, Cuajimalpa de Morelos, Ciudad de México",
     "Type": "Privately Held",
     "Founded": "2022"
+  },
+  {
+    "name": "Friedrich Stahl",
+    "Companyname": "HP",
+    "website": "http://www.hp.com",
+    "Industry": "IT Services and IT Consulting",
+    "CompanySize": "10,001+ employees",
+    "Headquater": "Palo Alto, CA",
+    "Type": "Public Company",
+    "Founded": "When Founded not found"
   },
   {
     "name": "Jim Angleton",
@@ -170,6 +160,16 @@
     "Founded": "2015"
   },
   {
+    "name": "Richard Groome",
+    "Companyname": "Notre-Dame Capital Inc.",
+    "website": "http://www.notredamecapital.com",
+    "Industry": "Financial Services",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Montreal, Quebec",
+    "Type": "Privately Held",
+    "Founded": "2006"
+  },
+  {
     "name": "Eric Blue",
     "Companyname": "Nevly",
     "website": "https://nevly.com",
@@ -180,13 +180,173 @@
     "Founded": "2021"
   },
   {
-    "name": "Richard Groome",
-    "Companyname": "Notre-Dame Capital Inc.",
-    "website": "http://www.notredamecapital.com",
-    "Industry": "Financial Services",
+    "name": "Ash Bassili",
+    "Companyname": "myLaminin",
+    "website": "http://www.mylaminin.net",
+    "Industry": "IT Services and IT Consulting",
     "CompanySize": "2-10 employees",
-    "Headquater": "Montreal, Quebec",
+    "Headquater": "Kingston, Ontario",
+    "Type": "Privately Held",
+    "Founded": "2021"
+  },
+  {
+    "name": "Gene Monaco",
+    "Companyname": "MediTechnix Incorporated",
+    "website": "http://meditechnix.com",
+    "Industry": "Hospitals and Health Care",
+    "CompanySize": "10,001+ employees",
+    "Headquater": "Headquater location not found",
+    "Type": "Privately Held",
+    "Founded": "2010"
+  },
+  {
+    "name": "Greg McGregor",
+    "Companyname": "Bright Apps LLC",
+    "website": "http://www.brightappsllc.com",
+    "Industry": "Software Development",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Walnut Creek, CA",
+    "Type": "Self-Owned",
+    "Founded": "1990"
+  },
+  {
+    "name": "Paulo Eduardo Padula",
+    "Companyname": "Plug and Play Tech Center",
+    "website": "https://www.plugandplaytechcenter.com/",
+    "Industry": "Venture Capital and Private Equity Principals",
+    "CompanySize": "501-1,000 employees",
+    "Headquater": "Sunnyvale, CA",
     "Type": "Privately Held",
     "Founded": "2006"
+  },
+  {
+    "name": "Lothar Soliwon",
+    "Companyname": "ZG Worldwide Consultants (A Multi-specialty Group)",
+    "website": "https://www.zgworldwide.com",
+    "Industry": "Business Consulting and Services",
+    "CompanySize": "51-200 employees",
+    "Headquater": "Springfield, Illinois",
+    "Type": "Privately Held",
+    "Founded": "2013"
+  },
+  {
+    "name": "Dr. Shekhar Pawar",
+    "Companyname": "SecureClaw",
+    "website": "https://secureclaw.com",
+    "Industry": "IT Services and IT Consulting",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Dover, Deleware",
+    "Type": "Privately Held",
+    "Founded": "2022"
+  },
+  {
+    "name": "Christian Moreno",
+    "Companyname": "GoKapital",
+    "website": "https://www.GoKapital.com",
+    "Industry": "Financial Services",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Miami, Florida",
+    "Type": "Privately Held",
+    "Founded": "2013"
+  },
+  {
+    "name": "Andres Diaz Martinez",
+    "Companyname": "Plug and Play Tech Center",
+    "website": "https://www.plugandplaytechcenter.com/",
+    "Industry": "Venture Capital and Private Equity Principals",
+    "CompanySize": "501-1,000 employees",
+    "Headquater": "Sunnyvale, CA",
+    "Type": "Privately Held",
+    "Founded": "2006"
+  },
+  {
+    "name": "Nasir T.",
+    "Companyname": "Upwork",
+    "website": "https://www.upwork.com/",
+    "Industry": "Technology, Information and Internet",
+    "CompanySize": "501-1,000 employees",
+    "Headquater": "San Francisco, California",
+    "Type": "Public Company",
+    "Founded": "2015"
+  },
+  {
+    "name": "Nic Solecki",
+    "Companyname": "Marquette Associates",
+    "website": "http://www.marquetteassociates.com",
+    "Industry": "Financial Services",
+    "CompanySize": "51-200 employees",
+    "Headquater": "Chicago, IL",
+    "Type": "Privately Held",
+    "Founded": "1986"
+  },
+  {
+    "name": "Linda Goetze",
+    "Companyname": "Blockchain Chamber of Commerce",
+    "website": "http://www.blockchainchamber.org",
+    "Industry": "Information Technology & Services",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Atlanta, GA",
+    "Type": "Nonprofit",
+    "Founded": "2017"
+  },
+  {
+    "name": "Issa jérémy Victor",
+    "Companyname": "Camelcoin Project",
+    "website": "http://www.camelcoin.io",
+    "Industry": "Financial Services",
+    "CompanySize": "11-50 employees",
+    "Headquater": "San Jose, Carmen district",
+    "Type": "Nonprofit",
+    "Founded": "2020"
+  },
+  {
+    "name": "Amir Tabei",
+    "Companyname": "Dallas Museum of Art",
+    "website": "http://www.DMA.org",
+    "Industry": "Museums, Historical Sites, and Zoos",
+    "CompanySize": "201-500 employees",
+    "Headquater": "Dallas, TX",
+    "Type": "Nonprofit",
+    "Founded": "1903"
+  },
+  {
+    "name": "Karlo Turk",
+    "Companyname": "Credit Metaverse",
+    "website": "https://creditmetaverse.io/",
+    "Industry": "الخدمات المالية",
+    "CompanySize": "١١- ٥٠ موظف",
+    "Headquater": "Dubai",
+    "Type": "شركة يملكها عدد قليل من الأشخاص",
+    "Founded": "2021"
+  },
+  {
+    "name": "David Lucatch",
+    "Companyname": "Liquid Avatar Technologies",
+    "website": "http://www.liquidavatartechnologies.com",
+    "Industry": "Financial Services",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Burnaby, British Columbia",
+    "Type": "Partnership",
+    "Founded": "2017"
+  },
+  {
+    "name": "Dan Hannigan-Daley",
+    "Companyname": "Sports Info Solutions",
+    "website": "http://sportsinfosolutions.com",
+    "Industry": "Spectator Sports",
+    "CompanySize": "51-200 employees",
+    "Headquater": "Coplay, PA",
+    "Type": "Privately Held",
+    "Founded": "2002"
+  },
+  {
+    "name": "Lee Richter",
+    "Companyname": "Event Planners Association",
+    "website": "http://eventplannersassociation.com/",
+    "Industry": "Events Services",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Oakland, California",
+    "Type": "Public Company",
+    "Founded": "2005"
   }
 ]
