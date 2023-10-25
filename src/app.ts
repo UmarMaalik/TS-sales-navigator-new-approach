@@ -42,80 +42,80 @@ const run=async () => {
     const NewList: GoogleData[]|undefined = [];
     console.log("the console is ",Cluster);
     
-    // await Mailto(`<h1>scrapper has started</h1>`,false)
-    // await randomTimeout(5, 9);
-    // try {
-    //   const cookiesFilePath: string = path.join(
-    //     __dirname,
-    //     "Cookies/cookies.json"
-    //   );
+    await Mailto(`<h1>scrapper has started</h1>`,false)
+    await randomTimeout(5, 9);
+    try {
+      const cookiesFilePath: string = path.join(
+        __dirname,
+        "Cookies/cookies.json"
+      );
 
-    //   const cookiesData: string = fs.readFileSync(cookiesFilePath, "utf-8");
-    //   const cookies = JSON.parse(cookiesData);
-    //   await page.setCookie(...cookies);
-    //   await randomTimeout(5, 9);
-    //   // Now, 'cookies' contains the data from the JSON file, and you can use it in your code.
-    // } catch (error) {
-    //   console.error("Error reading or parsing the JSON file:", error);
-    // }
+      const cookiesData: string = fs.readFileSync(cookiesFilePath, "utf-8");
+      const cookies = JSON.parse(cookiesData);
+      await page.setCookie(...cookies);
+      await randomTimeout(5, 9);
+      // Now, 'cookies' contains the data from the JSON file, and you can use it in your code.
+    } catch (error) {
+      console.error("Error reading or parsing the JSON file:", error);
+    }
 
-    // await page.goto(`${BaseUrl}`, { waitUntil: "load" });
-    // await randomTimeout(5, 10);
-    // await page.goto( 
-    //   "https://www.linkedin.com/sales/search/people?viewAllFilters=true",   
-    //   { waitUntil: "load" }
-    // );
-    // await randomTimeout(5, 10);
-    // await CompanyFilter(page);
-    // await randomTimeout(5, 7);
-    // await page.type("#global-typeahead-search-input", `${JobTitle} ${Industy}`);
-    // await page.keyboard.press("Enter");
-    // await randomTimeout(5, 12);
-    // const aviarry:any[]=[];
-    // let pa:number=1;
-    // for (let i = 0; i <2; i++) {
-    //   console.log("the current page is=>>>>>>>>>>>>>>>>>>>>> ",pa);
+    await page.goto(`${BaseUrl}`, { waitUntil: "load" });
+    await randomTimeout(5, 10);
+    await page.goto( 
+      "https://www.linkedin.com/sales/search/people?viewAllFilters=true",   
+      { waitUntil: "load" }
+    );
+    await randomTimeout(5, 10);
+    await CompanyFilter(page);
+    await randomTimeout(5, 7);
+    await page.type("#global-typeahead-search-input", `${JobTitle} ${Industy}`);
+    await page.keyboard.press("Enter");
+    await randomTimeout(5, 12);
+    const aviarry:any[]=[];
+    let pa:number=1;
+    for (let i = 0; i <2; i++) {
+      console.log("the current page is=>>>>>>>>>>>>>>>>>>>>> ",pa);
       
-    //    let non=await temp(page);
-    //   // console.log("the temp value is", tempvalue);
-    //   if(non)
-    //   {
-    //   for (let entry of non) {
-    //     aviarry.push(entry);
-    //   }
-    // }
-    //   try{
-    //   await page.waitForSelector(
-    //     ".artdeco-pagination__button.artdeco-pagination__button--next",
-    //     { timeout: 10000 }
-    //   );
-    //   await page.click(
-    //     ".artdeco-pagination__button.artdeco-pagination__button--next"
-    //   );
-    //   pa++;
-    //   }
-    //   catch(err)
-    //   {
-    //     console.log("cannot proceed to the next page",err);
+       let non=await temp(page);
+      // console.log("the temp value is", tempvalue);
+      if(non)
+      {
+      for (let entry of non) {
+        aviarry.push(entry);
+      }
+    }
+      try{
+      await page.waitForSelector(
+        ".artdeco-pagination__button.artdeco-pagination__button--next",
+        { timeout: 10000 }
+      );
+      await page.click(
+        ".artdeco-pagination__button.artdeco-pagination__button--next"
+      );
+      pa++;
+      }
+      catch(err)
+      {
+        console.log("cannot proceed to the next page",err);
         
-    //   }
-    // }
-    // console.log("number of pages visited:====",pa);
+      }
+    }
+    console.log("number of pages visited:====",pa);
     
-    // console.log("the big list is", aviarry);
-    // const jsonData = JSON.stringify(aviarry, null, 2);
+    console.log("the big list is", aviarry);
+    const jsonData = JSON.stringify(aviarry, null, 2);
     const FoutputPath: string = path.join(__dirname, "output/extracted.json");
-    // // console.log("json data", jsonData);
+    // console.log("json data", jsonData);
 
-    // fs.writeFile(FoutputPath, jsonData, { encoding: "utf-8" }, (err) => {
-    //   if (err) {
-    //     console.error("Error writing file:", err);
-    //   } else {
-    //     console.log(`Data saved to ${FoutputPath}`);
+    fs.writeFile(FoutputPath, jsonData, { encoding: "utf-8" }, (err) => {
+      if (err) {
+        console.error("Error writing file:", err);
+      } else {
+        console.log(`Data saved to ${FoutputPath}`);
        
-    //   }
-    // });
-    // await Mailto(`<h1>step one completed</h1>`,false) 
+      }
+    });
+    await Mailto(`<h1>step one completed</h1>`,false) 
        let data1:any[]=[];  
     fs.readFile(FoutputPath, 'utf8', (err, data) => {
       if (err) {
