@@ -2,14 +2,17 @@ import { Page,CDPSession } from "puppeteer";
 import { randomTimeout } from "../Timeout/Timeout";
 import { ElementHandle } from 'puppeteer';
 import { ProfileData } from "../models/ProfileData";
-
+import path from "path";
 export async function temp(page: Page) {
+  console.log("start of the function");
+  
   const data:any[]=[];
   try{
   await page.waitForSelector(".artdeco-list__item", { timeout: 10000 });
   }
   catch(err){
     console.log("the lsit not found");
+    await page.screenshot({ path:'src/screenshots/listnotfound.png' });
     return null;
     
   }
@@ -18,56 +21,52 @@ export async function temp(page: Page) {
       timeout: 50000,
     });
   } catch (error) {
+    await page.screenshot({ path:'src/screenshots/subtitlenotfound.png' });
     console.log("Cannot find .artdeco-entity-lockup__subtitle");
   }
 
   await randomTimeout(1, 4);
+console.log("going to scroll down");
 
   // Scroll down to load more profiles
   await scrollDown(page);
 
   // Get all containers
+  try{
+    console.log("searching for all containers");
+    
   const containers = await page.$$(".artdeco-list__item");
 
   console.log("Total containers:", containers.length);
+ 
 let count=0
 let current =" "
   // Iterate over containers
+  console.log("going to enter for loop");
+  
   for (const container of containers) {
-// await scrollToElement(page,container);
-    // const box = await container.boundingBox();
-    // if(box)
-    // {
-    //   const scrollX = box.x + box.width / 2;
-    //   const scrollY = box.y + box.height / 2;
-    //   await page.evaluate((scrollX, scrollY) => {
-    //     window.scrollTo(scrollX, scrollY);
-    //   }, scrollX, scrollY);
-    // }
+console.log("in for loop");
+
     const scrollOffset = 10; // Adjust this value as needed
+console.log("before evaluate method");
 
 // Scroll the container to the calculated position
 await container.evaluate((el, offset) => {
   el.scrollIntoView({ behavior: 'auto', block: 'center' });
   el.scrollTop += offset;
 }, scrollOffset);
-//     await randomTimeout(2,5)
-//     try{
-//       await page.waitForSelector(".artdeco-entity-lockup__subtitle a",{ timeout: 10000 })
-//     }
-//     catch(e)
-//     {
-//       console.log("cannot find anchor tag to hover beforre hovering");
-      
-//     }
+
    
     // Find anchor tag within the container
+    console.log("finding anchor tag");
+    
     const anchor = await container.$(".artdeco-entity-lockup__subtitle a");
     await randomTimeout(1,2)
     let newname=await container.$(".artdeco-entity-lockup__title");
     let tempname: string | null = await newname?.evaluate((node) => (node as HTMLElement)?.innerText?.trim()) || null;
     if (anchor) {
       try {
+       console.log("in try of hovering");
        
         
         // Hover over the anchor (you may need to wait for a tooltip or popup)
@@ -85,6 +84,8 @@ await container.evaluate((el, offset) => {
         
         while(noon==current)
         {
+        
+          
           console.log("in while");
           
           await anchor.hover();
@@ -92,45 +93,32 @@ await container.evaluate((el, offset) => {
           noon = await anchor1?.evaluate((node) => node.innerText.trim());
         }
       
-        
-        // if(noon==current)
-        // {
-        //   await anchor.hover();
-        //   await randomTimeout(3,6)
-        //   const anchor1 = await page.$(".entity-hovercard__title-container a");
-        //   console.log("the anchor1 is",anchor1);
-          
-          
-        //   let noon = await anchor1?.evaluate((node) => node.innerText.trim());
-        //   console.log("Hovered again over anchor successfully.", noon);
-        // } 
+      
         if(noon&&noon!==null)
         {
-          // const isDuplicate = data.some((item) => item.name === tempname && item.Companyname === noon);
-          // if (!isDuplicate) {
+       
             data.push({
               name: tempname,
               Companyname: noon,
             });
             count++;
             current=noon;
-          // }
-          // data.push({
-          //   name:tempname,
-          //   Companyname:noon
-          // })
-          // count++;
+      
         }
 
         
       } catch (error) {
         console.error("Error hovering over the element:", error);
+        
+        await page.screenshot({ path:'src/screenshots/hovering.png' });
         // Implement retry logic or other actions to make the element hoverable.
       }
     } else {
       console.log("Anchor element not found in the container.");
     }
     await randomTimeout(4,6)
+    console.log("before bounding box");
+    
     const boundingBox = await anchor?.boundingBox();
         if (boundingBox) {
           await page.mouse.move(boundingBox.x - 10, boundingBox.y - 10); // Move slightly away from the element
@@ -139,6 +127,13 @@ await container.evaluate((el, offset) => {
   }
   console.log("the value of count is ", count);
   return data;
+}
+catch(err)
+{
+  console.log("error on the page",err);
+  await page.screenshot({ path:'src/screenshots/templastCatch.png' });
+  
+}
 }
 
 async function scrollDown(page: Page) {
@@ -173,34 +168,4 @@ async function scrollDown(page: Page) {
     currentScroll = newScroll;
   }
 }
-
-
-
-
-
-
-// async function scrollToElement(page: Page, element: ElementHandle<Element>) {
-//   // Scroll the element into view
-//   await element.scrollIntoView();
-
-//   // Optionally, you can adjust the scroll position
-//   const scrollOffset = 0; // Adjust this value as needed
-//   await page.evaluate((offset) => {
-//     window.scrollBy(0, offset);
-//   }, scrollOffset);
-// }
-
-// Example usage:
-// const container = await page.$(yourContainerSelector);
-// await scrollToElement(page, container);
-
-
-// Example usage:
-// const container = await page.$(yourContainerSelector);
-// const session = await page.target().createCDPSession();
-// await scrollToContainer(page, session);
-
-
-// Example usage:
-// await scrollToElement(page, ".your-selector");
 

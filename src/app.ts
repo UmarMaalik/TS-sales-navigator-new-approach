@@ -59,11 +59,11 @@ const run=async () => {
       console.error("Error reading or parsing the JSON file:", error);
     }
 
-    await page.goto(`${BaseUrl}`, { waitUntil: "load" });
+    await page.goto(`${BaseUrl}`, { waitUntil: "load" ,timeout: 60000});
     await randomTimeout(5, 10);
     await page.goto( 
       "https://www.linkedin.com/sales/search/people?viewAllFilters=true",   
-      { waitUntil: "load" }
+      { waitUntil: "load",timeout: 60000 }
     );
     await randomTimeout(5, 10);
     await CompanyFilter(page);

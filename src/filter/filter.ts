@@ -8,7 +8,7 @@ export async function CompanyFilter(page:Page){
 
     
         // Check if the fieldset exists
-        if (fieldset) {
+        if (fieldset) { 
           // Find the button within the fieldset
           const button:HTMLElement | null = fieldset.querySelector('button');
     
@@ -25,13 +25,17 @@ export async function CompanyFilter(page:Page){
 
   // Use page.evaluate to click the button
   await page.evaluate((title:string) => {
+    console.log("the titlte is",title);
+    
     // Find the fieldset with the specified title attribute
     const Drop:HTMLElement | null  = document.querySelector(`li[aria-label="${title}"]`);
+console.log("the filter ",Drop); 
 
     // Check if the fieldset exists
     if (Drop) {
       // Find the button within the fieldset
-      const button:HTMLElement | null  = Drop.querySelector(`button[title="Include “North America” in Company headquarters location filter"]`);
+      const button:HTMLElement | null  = Drop.querySelector(`div[title="Include “North America” in Company headquarters location filter"]`);
+console.log("the button is",button);
 
       // Check if the button exists
       if (button) {
@@ -57,7 +61,7 @@ export async function CompanyFilter(page:Page){
     if (Drop) {
       console.log("in if Drop if");
       // Find the button within the fieldset
-      const button:HTMLElement | null = Drop.querySelector(`button[title="Include “United States” in Company headquarters location filter"]`);
+      const button:HTMLElement | null = Drop.querySelector(`div[title="Include “United States” in Company headquarters location filter"]`);
 
       // Check if the button exists
       if (button) {

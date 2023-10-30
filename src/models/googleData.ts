@@ -1,6 +1,8 @@
-export interface GoogleData {
+
+export interface GoogleData{
     name:string;
     Companyname:string;
+
     website:string;
     Industry:string;
     CompanySize:string;
