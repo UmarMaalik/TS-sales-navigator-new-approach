@@ -1,1 +1,474 @@
-[]
+[
+  {
+    "name": "Dr. Gordon Jones",
+    "Companyname": "Picklezone"
+  },
+  {
+    "name": "Daniel Armani, Ph.D.",
+    "Companyname": "Texas Blockchain Center LLC"
+  },
+  {
+    "name": "Philip Abraham ~ Strategy",
+    "Companyname": "CloudFaceUSA.com"
+  },
+  {
+    "name": "Alex Slocum",
+    "Companyname": "GOPX Blockchain Currency"
+  },
+  {
+    "name": "Christopher H. Loo, MD-PhD",
+    "Companyname": "Financial Freedom for Physicians with Dr. Christopher H. Loo, MD-PhD"
+  },
+  {
+    "name": "Frank Yglesias",
+    "Companyname": "Santo Mining Corp. a.k.a HighBloc"
+  },
+  {
+    "name": "Kekeli Bokor",
+    "Companyname": "MongoDB"
+  },
+  {
+    "name": "Jeffery Potvin (JP)",
+    "Companyname": "Open People Network (OPN)"
+  },
+  {
+    "name": "Mackenzie Spencer",
+    "Companyname": "Deify"
+  },
+  {
+    "name": "Pradeep Aswal",
+    "Companyname": "Blockchain Council"
+  },
+  {
+    "name": "Herman Kepani Jr",
+    "Companyname": "Allied Universal"
+  },
+  {
+    "name": "Jonathan Capriola",
+    "Companyname": "AI Blockchain Ventures"
+  },
+  {
+    "name": "Linda Goetze",
+    "Companyname": "Blockchain Chamber of Commerce"
+  },
+  {
+    "name": "Kyle Doran 🕔🌌⚛️",
+    "Companyname": "The Net VR"
+  },
+  {
+    "name": "Roger Williams",
+    "Companyname": "Mobile Blockchain Solutions"
+  },
+  {
+    "name": "Marcos De Pedro",
+    "Companyname": "myCloudDoor"
+  },
+  {
+    "name": "Doug Kirkpatrick",
+    "Companyname": "D'Artagnan Advisors, LLC"
+  },
+  {
+    "name": "Brett King",
+    "Companyname": "The Futurists Network"
+  },
+  {
+    "name": "Jim Angleton",
+    "Companyname": "Law Enforcement & Technology Federal Credit Union"
+  },
+  {
+    "name": "Yu Sung Yeh",
+    "Companyname": "Pinscreen"
+  },
+  {
+    "name": "Yagub Rahimov",
+    "Companyname": "Texas A&M University-Texarkana"
+  },
+  {
+    "name": "Vladimir Lialine",
+    "Companyname": "TWIXSOFT"
+  },
+  {
+    "name": "Eric Burger",
+    "Companyname": "Public Interest Registry"
+  },
+  {
+    "name": "Matt Waters",
+    "Companyname": "Unchained Music"
+  },
+  {
+    "name": "Sergio Chaverri",
+    "Companyname": "BlockAxess"
+  },
+  {
+    "name": "Larry Meyer",
+    "Companyname": "CRO ADVISORS, LLC"
+  },
+  {
+    "name": "Richard Bunker",
+    "Companyname": "Inveniam"
+  },
+  {
+    "name": "Lawrence Bergenfield",
+    "Companyname": "Uptime Charger"
+  },
+  {
+    "name": "Farooq Zafar",
+    "Companyname": "Scale AI"
+  },
+  {
+    "name": "Jeffrey Maganis",
+    "Companyname": "Blockchain Capital"
+  },
+  {
+    "name": "ERICK CACERES MORROBEL",
+    "Companyname": "REICROWD"
+  },
+  {
+    "name": "Greg McGregor",
+    "Companyname": "Bright Apps LLC"
+  },
+  {
+    "name": "Lee Richter",
+    "Companyname": "Event Planners Association"
+  },
+  {
+    "name": "Jim Delli Santi",
+    "Companyname": "JWDS CONSULTING"
+  },
+  {
+    "name": "Jacques Sjouwerman",
+    "Companyname": "Smart4Retail"
+  },
+  {
+    "name": "Martin Vivas",
+    "Companyname": "Google"
+  },
+  {
+    "name": "Robin P. Belle",
+    "Companyname": "SMARTR JOINT VENTURE CAPITAL CORP"
+  },
+  {
+    "name": "Praveen K. Varshney, FCPA, FCA",
+    "Companyname": "Varshney Capital Corp."
+  },
+  {
+    "name": "Arnie Isaacs",
+    "Companyname": "Private Company"
+  },
+  {
+    "name": "Tyrrell Smith",
+    "Companyname": "PostNet International Franchise Corporation"
+  },
+  {
+    "name": "Beth Silverberg",
+    "Companyname": "The Sports Girls LLC"
+  },
+  {
+    "name": "Dr. Shekhar Pawar",
+    "Companyname": "SecureClaw"
+  },
+  {
+    "name": "Chima Nwala Executive Coach, Turo Host, Writer, Author",
+    "Companyname": "Hangout Corporation"
+  },
+  {
+    "name": "Taewook K.",
+    "Companyname": "Einstrong Foundation"
+  },
+  {
+    "name": "Lisa Nelson",
+    "Companyname": "Velvet Suite, Inc."
+  },
+  {
+    "name": "Jason B.",
+    "Companyname": "Commonwealth Capital LLC"
+  },
+  {
+    "name": "Itay Komorovski",
+    "Companyname": "Call4Peace LLC."
+  },
+  {
+    "name": "Robert Toker",
+    "Companyname": "Temo Power Inc."
+  },
+  {
+    "name": "Sergey Shayakhmetov",
+    "Companyname": "Binpong"
+  },
+  {
+    "name": "David Carmell",
+    "Companyname": "DealRockit"
+  },
+  {
+    "name": "Eric Blue",
+    "Companyname": "Nevly"
+  },
+  {
+    "name": "Jeff Brooks ★",
+    "Companyname": "Brooks Recruiting"
+  },
+  {
+    "name": "Dan Hannigan-Daley",
+    "Companyname": "Sports Info Solutions"
+  },
+  {
+    "name": "Konstantin J.",
+    "Companyname": "Bitcoin Inc."
+  },
+  {
+    "name": "Jean-Gabriel Paquette",
+    "Companyname": "Seaclub"
+  },
+  {
+    "name": "Debbie Goodman",
+    "Companyname": "Rebel Girls"
+  },
+  {
+    "name": "Max Koutny",
+    "Companyname": "Fifty-Seven Capital"
+  },
+  {
+    "name": "David Lucatch",
+    "Companyname": "Liquid Avatar Technologies"
+  },
+  {
+    "name": "Cori Baldasare",
+    "Companyname": "Demand.io"
+  },
+  {
+    "name": "Brett Berhoff",
+    "Companyname": "Strategy.xyz"
+  },
+  {
+    "name": "Daniel Addison, MSHI",
+    "Companyname": "Health Blockchain Security Services (HCISS) LLC"
+  },
+  {
+    "name": "Camila Farani",
+    "Companyname": "GAA Investments"
+  },
+  {
+    "name": "Gene Monaco",
+    "Companyname": "MediTechnix Incorporated"
+  },
+  {
+    "name": "Matt Coleman",
+    "Companyname": "FansXR"
+  },
+  {
+    "name": "Neor Basteker",
+    "Companyname": "Crypto Bank"
+  },
+  {
+    "name": "Tommaso Di Bartolo",
+    "Companyname": "Phygtl, Inc"
+  },
+  {
+    "name": "Johnnie J. Refvik",
+    "Companyname": "Refvik Technologies, Inc."
+  },
+  {
+    "name": "Lars Jorgensen",
+    "Companyname": "TAAL Distributed Information Technologies"
+  },
+  {
+    "name": "Edward Nwokedi",
+    "Companyname": "RedSwan CRE"
+  },
+  {
+    "name": "Redg Snodgrass",
+    "Companyname": "EdgeIn"
+  },
+  {
+    "name": "Nathan Clauss",
+    "Companyname": "New Level Recruiting"
+  },
+  {
+    "name": "Dr. Sindhu Bhaskar",
+    "Companyname": "FinTech and Blockchain Association (FAB)"
+  },
+  {
+    "name": "Tiya LaCroix",
+    "Companyname": "Zelma Health"
+  },
+  {
+    "name": "Gbenga Olomola",
+    "Companyname": "Resilient Software Security"
+  },
+  {
+    "name": "Margaret Wang",
+    "Companyname": "Tweebaa Inc."
+  },
+  {
+    "name": "Connor McLeod",
+    "Companyname": "Nerd"
+  },
+  {
+    "name": "Brent Chandler",
+    "Companyname": "FormFree®"
+  },
+  {
+    "name": "Denny Darmo",
+    "Companyname": "Snipitz"
+  },
+  {
+    "name": "Alejandro Hernández Bringas",
+    "Companyname": "MCM Telecom"
+  },
+  {
+    "name": "Michael J Levas",
+    "Companyname": "US Capital"
+  },
+  {
+    "name": "Nina Sichtermann",
+    "Companyname": "Chief"
+  },
+  {
+    "name": "🏛Loel K. Wood🏛",
+    "Companyname": "Blue Diamond Almonds Global Ingredients"
+  },
+  {
+    "name": "Fred Tanada",
+    "Companyname": "YesCare"
+  },
+  {
+    "name": "Amir Tabei",
+    "Companyname": "Dallas Museum of Art"
+  },
+  {
+    "name": "Dan Kehoe",
+    "Companyname": "4cE"
+  },
+  {
+    "name": "Dan Melnick",
+    "Companyname": "Southlake Consulting & Technologies | Personalized AI and Blockchain Solutions"
+  },
+  {
+    "name": "Dr. Jamilah Merrick",
+    "Companyname": "Lucid3"
+  },
+  {
+    "name": "Serhiy Kharytonov",
+    "Companyname": "JetSoftPro"
+  },
+  {
+    "name": "⚽ Neissan Monadjem",
+    "Companyname": "LINKSPORTS INTERNATIONAL CORP."
+  },
+  {
+    "name": "Ksenia Manaeva",
+    "Companyname": "Self Employed"
+  },
+  {
+    "name": "Soren Azorian",
+    "Companyname": "Redline Blockchain"
+  },
+  {
+    "name": "Mark Stoner",
+    "Companyname": "Apothēka Systems Inc."
+  },
+  {
+    "name": "Boris Kontsevoi",
+    "Companyname": "Forbes Technology Council"
+  },
+  {
+    "name": "Michael Zajas, MRED",
+    "Companyname": "CITIZEN CONSULTING PARTNERS"
+  },
+  {
+    "name": "Alison González",
+    "Companyname": "Lil Horse powered by DrakeTech"
+  },
+  {
+    "name": "Jeanine \"Nini\" Martin, FACHE/FHIMSS Gates Fellow Olympic athlete",
+    "Companyname": "ZeaMed"
+  },
+  {
+    "name": "Daniel Barry",
+    "Companyname": "BCAIV - BlockChain & AI Ventures"
+  },
+  {
+    "name": "William Naranjo",
+    "Companyname": "MergersCorp M&A International"
+  },
+  {
+    "name": "Rohail Khan",
+    "Companyname": "Westchester Group Investment Management, Inc."
+  },
+  {
+    "name": "Timothy Tello",
+    "Companyname": "3thix"
+  },
+  {
+    "name": "Dr. Kanth Miriyala, Ph.D",
+    "Companyname": "Block21x Capital"
+  },
+  {
+    "name": "Florian Krueger",
+    "Companyname": "Minfo"
+  },
+  {
+    "name": "Joel Garcia",
+    "Companyname": "AllCode"
+  },
+  {
+    "name": "Jeremy Joo",
+    "Companyname": "CryptoPool"
+  },
+  {
+    "name": "Jonathan Ewert",
+    "Companyname": "CapZone Analytics"
+  },
+  {
+    "name": "Dr. (Sam) Swapna Sinha",
+    "Companyname": "Strategism, Inc"
+  },
+  {
+    "name": "Kirk Borne, Ph.D.",
+    "Companyname": "DataPrime"
+  },
+  {
+    "name": "Michael Rubinelli",
+    "Companyname": "Worldwide Asset eXchange (WAX)"
+  },
+  {
+    "name": "Hugo Cantave-Jean",
+    "Companyname": "GSHI"
+  },
+  {
+    "name": "David Starck",
+    "Companyname": "Infuse"
+  },
+  {
+    "name": "Fredrik Grothe-Eberhardt",
+    "Companyname": "Stealth Startup"
+  },
+  {
+    "name": "Jay Schweid",
+    "Companyname": "ephelants"
+  },
+  {
+    "name": "Ali Hussein Kassim",
+    "Companyname": "Kinesis Money"
+  },
+  {
+    "name": "Brijesh Kamani",
+    "Companyname": "Rapidise.io"
+  },
+  {
+    "name": "Jon Trask",
+    "Companyname": "Blockchain Guru"
+  },
+  {
+    "name": "Ramin Redjai",
+    "Companyname": "MAMRAMIM Loan & Note Marketplace"
+  },
+  {
+    "name": "Dail Tony",
+    "Companyname": "Allied Mortgage Group Inc."
+  },
+  {
+    "name": "Patrick Fairon",
+    "Companyname": "Lunarspace Inc"
+  }
+]

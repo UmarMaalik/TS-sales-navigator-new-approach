@@ -25,7 +25,7 @@ const run=async () => {
 
   for (let i = 0; i < maxBrowsers; i++) {
     const browser = await puppeteer.launch({
-      headless:false,
+      headless:'new',
       slowMo: 100,
       protocolTimeout: 70000,
       args: ["--no-sandbox"],
@@ -73,7 +73,7 @@ const run=async () => {
     await randomTimeout(5, 12);
     const aviarry:any[]=[];
     let pa:number=1;
-    for (let i = 0; i <2; i++) {
+    for (let i = 0; i <5; i++) {
       console.log("the current page is=>>>>>>>>>>>>>>>>>>>>> ",pa);
       
        let non=await temp(page);

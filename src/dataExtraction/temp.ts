@@ -81,16 +81,20 @@ await container.evaluate((el, offset) => {
         console.log("Hovered over anchor successfully.", noon);
         console.log("the person name is ", tempname);
         console.log("the value of current is:++++++++++++++>",current);
-        
+        var  Retry=0;
         while(noon==current)
         {
-        
+          if(Retry==3)
+          {
+            return;
+          }
           
           console.log("in while");
           
           await anchor.hover();
           anchor1 = await page.$(".entity-hovercard__title-container a");
           noon = await anchor1?.evaluate((node) => node.innerText.trim());
+          Retry++;
         }
       
       

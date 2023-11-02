@@ -20,6 +20,46 @@
     "Founded": "2019"
   },
   {
+    "name": "Dr. Gordon Jones",
+    "Companyname": "Picklezone",
+    "website": "https://picklezone.com/",
+    "Industry": "Technology, Information and Internet",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Orlando, Florida",
+    "Type": "Privately Held",
+    "Founded": "2022"
+  },
+  {
+    "name": "Alex Slocum",
+    "Companyname": "GOPX Blockchain Currency",
+    "website": "www.gopxmegaverse.com",
+    "Industry": "Blockchain Services",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Miramar, Florida",
+    "Type": "Public Company",
+    "Founded": "2020"
+  },
+  {
+    "name": "Frank Yglesias",
+    "Companyname": "Santo Mining Corp. a.k.a HighBloc",
+    "website": "https://santoblockchain.com/",
+    "Industry": "IT Services and IT Consulting",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Aventura, Florida",
+    "Type": "Public Company",
+    "Founded": "2005"
+  },
+  {
+    "name": "Jeffery Potvin (JP)",
+    "Companyname": "Open People Network (OPN)",
+    "website": "http://www.opn.ninja",
+    "Industry": "Broadcast Media Production and Distribution",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Toronto, ontario",
+    "Type": "Public Company",
+    "Founded": "2016"
+  },
+  {
     "name": "Mackenzie Spencer",
     "Companyname": "Deify",
     "website": "Website not Found",
@@ -30,22 +70,22 @@
     "Founded": "When Founded not found"
   },
   {
-    "name": "Matt Waters",
-    "Companyname": "Unchained Music",
-    "website": "https://www.unchainedmusic.io",
-    "Industry": "Musicians",
-    "CompanySize": "2-10 employees",
-    "Headquater": "Denver, CO",
+    "name": "Pradeep Aswal",
+    "Companyname": "Blockchain Council",
+    "website": "https://www.blockchain-council.org",
+    "Industry": "E-Learning Providers",
+    "CompanySize": "51-200 employees",
+    "Headquater": "Covina, California",
     "Type": "Privately Held",
-    "Founded": "2021"
+    "Founded": "2017"
   },
   {
-    "name": "Jon Woodard",
-    "Companyname": "Wolfram Blockchain Labs",
-    "website": "https://www.wolframblockchainlabs.com/",
-    "Industry": "Software Development",
-    "CompanySize": "11-50 employees",
-    "Headquater": "Champaign, IL",
+    "name": "Herman Kepani Jr",
+    "Companyname": "Allied Universal",
+    "website": "https://www.aus.com/",
+    "Industry": "Security and Investigations",
+    "CompanySize": "10,001+ employees",
+    "Headquater": "Irvine, CA",
     "Type": "Privately Held",
     "Founded": "When Founded not found"
   },
@@ -60,6 +100,16 @@
     "Founded": "2019"
   },
   {
+    "name": "Linda Goetze",
+    "Companyname": "Blockchain Chamber of Commerce",
+    "website": "http://www.blockchainchamber.org",
+    "Industry": "Information Technology & Services",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Atlanta, GA",
+    "Type": "Nonprofit",
+    "Founded": "2017"
+  },
+  {
     "name": "Jonathan Capriola",
     "Companyname": "AI Blockchain Ventures",
     "website": "https://www.aiblockchainventures.com/",
@@ -70,74 +120,44 @@
     "Founded": "2022"
   },
   {
-    "name": "LaMont Jeppesen Leavitt",
-    "Companyname": "innoviHealth",
-    "website": "https://www.innovihealth.com/",
-    "Industry": "Hospitals and Health Care",
+    "name": "Roger Williams",
+    "Companyname": "Mobile Blockchain Solutions",
+    "website": "https://mobileblockchainsolutions.com/",
+    "Industry": "Blockchain Services",
     "CompanySize": "11-50 employees",
-    "Headquater": "Spanish Fork, UT",
-    "Type": "Privately Held",
-    "Founded": "1997"
-  },
-  {
-    "name": "Pradeep Aswal",
-    "Companyname": "Blockchain Council",
-    "website": "https://www.blockchain-council.org",
-    "Industry": "E-Learning Providers",
-    "CompanySize": "51-200 employees",
-    "Headquater": "Covina, California",
-    "Type": "Privately Held",
-    "Founded": "2017"
-  },
-  {
-    "name": "Emma Arakelyan",
-    "Companyname": "BAJ Accelerator",
-    "website": "https://www.bajaccelerator.com/",
-    "Industry": "Venture Capital and Private Equity Principals",
-    "CompanySize": "11-50 employees",
-    "Headquater": "New York, New York",
+    "Headquater": "Houston, TX",
     "Type": "Partnership",
+    "Founded": "2018"
+  },
+  {
+    "name": "Doug Kirkpatrick",
+    "Companyname": "D'Artagnan Advisors, LLC",
+    "website": "https://dartagnanadvisors.com",
+    "Industry": "Business Consulting and Services",
+    "CompanySize": "2-10 employees",
+    "Headquater": "San Francisco Bay Area, California",
+    "Type": "Privately Held",
     "Founded": "2020"
   },
   {
-    "name": "Richard Bunker",
-    "Companyname": "Inveniam",
-    "website": "https://inveniam.io/",
-    "Industry": "Financial Services",
-    "CompanySize": "51-200 employees",
-    "Headquater": "New York, NY",
-    "Type": "Privately Held",
-    "Founded": "2017"
-  },
-  {
-    "name": "Arnie Isaacs",
-    "Companyname": "Private Company",
-    "website": "http://buzz2bucks.com",
-    "Industry": "Advertising Services",
+    "name": "Yu Sung Yeh",
+    "Companyname": "Pinscreen",
+    "website": "http://www.pinscreen.com",
+    "Industry": "Technology, Information and Internet",
     "CompanySize": "11-50 employees",
-    "Headquater": "New York, NY",
+    "Headquater": "Los Angeles, CA",
     "Type": "Privately Held",
-    "Founded": "When Founded not found"
+    "Founded": "2015"
   },
   {
-    "name": "Sergio Chaverri",
-    "Companyname": "BlockAxess",
-    "website": "https://www.blockaxess.io",
-    "Industry": "Financial Services",
+    "name": "Brett King",
+    "Companyname": "The Futurists Network",
+    "website": "http://www.thefuturists.com",
+    "Industry": "Technology, Information and Media",
     "CompanySize": "2-10 employees",
-    "Headquater": "Santa Fe, Cuajimalpa de Morelos, Ciudad de México",
+    "Headquater": "New York and Los Angeles",
     "Type": "Privately Held",
-    "Founded": "2022"
-  },
-  {
-    "name": "Friedrich Stahl",
-    "Companyname": "HP",
-    "website": "http://www.hp.com",
-    "Industry": "IT Services and IT Consulting",
-    "CompanySize": "10,001+ employees",
-    "Headquater": "Palo Alto, CA",
-    "Type": "Public Company",
-    "Founded": "When Founded not found"
+    "Founded": "2021"
   },
   {
     "name": "Jim Angleton",
@@ -160,44 +180,64 @@
     "Founded": "2015"
   },
   {
-    "name": "Richard Groome",
-    "Companyname": "Notre-Dame Capital Inc.",
-    "website": "http://www.notredamecapital.com",
-    "Industry": "Financial Services",
-    "CompanySize": "2-10 employees",
-    "Headquater": "Montreal, Quebec",
-    "Type": "Privately Held",
-    "Founded": "2006"
+    "name": "Eric Burger",
+    "Companyname": "Public Interest Registry",
+    "website": "http://pir.org",
+    "Industry": "Technology, Information and Internet",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Reston, Virginia",
+    "Type": "Nonprofit",
+    "Founded": "2002"
   },
   {
-    "name": "Eric Blue",
-    "Companyname": "Nevly",
-    "website": "https://nevly.com",
-    "Industry": "Financial Services",
+    "name": "Matt Waters",
+    "Companyname": "Unchained Music",
+    "website": "https://www.unchainedmusic.io",
+    "Industry": "Musicians",
     "CompanySize": "2-10 employees",
-    "Headquater": "Washington, DC",
+    "Headquater": "Denver, CO",
     "Type": "Privately Held",
     "Founded": "2021"
   },
   {
-    "name": "Ash Bassili",
-    "Companyname": "myLaminin",
-    "website": "http://www.mylaminin.net",
-    "Industry": "IT Services and IT Consulting",
+    "name": "Sergio Chaverri",
+    "Companyname": "BlockAxess",
+    "website": "https://www.blockaxess.io",
+    "Industry": "Financial Services",
     "CompanySize": "2-10 employees",
-    "Headquater": "Kingston, Ontario",
+    "Headquater": "Santa Fe, Cuajimalpa de Morelos, Ciudad de México",
     "Type": "Privately Held",
-    "Founded": "2021"
+    "Founded": "2022"
   },
   {
-    "name": "Gene Monaco",
-    "Companyname": "MediTechnix Incorporated",
-    "website": "http://meditechnix.com",
-    "Industry": "Hospitals and Health Care",
-    "CompanySize": "10,001+ employees",
-    "Headquater": "Headquater location not found",
+    "name": "Farooq Zafar",
+    "Companyname": "Scale AI",
+    "website": "https://scale.com",
+    "Industry": "Software Development",
+    "CompanySize": "1,001-5,000 employees",
+    "Headquater": "San Francisco, California",
     "Type": "Privately Held",
-    "Founded": "2010"
+    "Founded": "2016"
+  },
+  {
+    "name": "Richard Bunker",
+    "Companyname": "Inveniam",
+    "website": "https://inveniam.io/",
+    "Industry": "Financial Services",
+    "CompanySize": "51-200 employees",
+    "Headquater": "New York, NY",
+    "Type": "Privately Held",
+    "Founded": "2017"
+  },
+  {
+    "name": "Lawrence Bergenfield",
+    "Companyname": "Uptime Charger",
+    "website": "http://www.uptimecharger.com",
+    "Industry": "Transportation, Logistics, Supply Chain and Storage",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Waterford, Michigan",
+    "Type": "Privately Held",
+    "Founded": "2023"
   },
   {
     "name": "Greg McGregor",
@@ -210,24 +250,104 @@
     "Founded": "1990"
   },
   {
-    "name": "Paulo Eduardo Padula",
-    "Companyname": "Plug and Play Tech Center",
-    "website": "https://www.plugandplaytechcenter.com/",
-    "Industry": "Venture Capital and Private Equity Principals",
-    "CompanySize": "501-1,000 employees",
-    "Headquater": "Sunnyvale, CA",
-    "Type": "Privately Held",
-    "Founded": "2006"
+    "name": "ERICK CACERES MORROBEL",
+    "Companyname": "REICROWD",
+    "website": "https://www.reicrowd.io",
+    "Industry": "Real Estate",
+    "CompanySize": "2-10 employees",
+    "Headquater": "East Rutherford, NJ",
+    "Type": "Partnership",
+    "Founded": "2019"
   },
   {
-    "name": "Lothar Soliwon",
-    "Companyname": "ZG Worldwide Consultants (A Multi-specialty Group)",
-    "website": "https://www.zgworldwide.com",
-    "Industry": "Business Consulting and Services",
-    "CompanySize": "51-200 employees",
-    "Headquater": "Springfield, Illinois",
-    "Type": "Privately Held",
+    "name": "Jeffrey Maganis",
+    "Companyname": "Blockchain Capital",
+    "website": "http://www.blockchaincapital.com",
+    "Industry": "Venture Capital and Private Equity Principals",
+    "CompanySize": "11-50 employees",
+    "Headquater": "San Francisco, CA",
+    "Type": "Partnership",
     "Founded": "2013"
+  },
+  {
+    "name": "Jim Delli Santi",
+    "Companyname": "JWDS CONSULTING",
+    "website": "https://www.jwdsconsulting.com/",
+    "Industry": "Business Consulting and Services",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Los Gatos, CA",
+    "Type": "Self-Owned",
+    "Founded": "2015"
+  },
+  {
+    "name": "Lee Richter",
+    "Companyname": "Event Planners Association",
+    "website": "http://eventplannersassociation.com/",
+    "Industry": "Events Services",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Oakland, California",
+    "Type": "Public Company",
+    "Founded": "2005"
+  },
+  {
+    "name": "Martin Vivas",
+    "Companyname": "Google",
+    "website": "https://goo.gle/3DLEokh",
+    "Industry": "Software Development",
+    "CompanySize": "10,001+ employees",
+    "Headquater": "Mountain View, CA",
+    "Type": "Public Company",
+    "Founded": "When Founded not found"
+  },
+  {
+    "name": "Robin P. Belle",
+    "Companyname": "SMARTR JOINT VENTURE CAPITAL CORP",
+    "website": "https://www.smartr.fund",
+    "Industry": "Technology, Information and Media",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Sheridan, WY",
+    "Type": "Privately Held",
+    "Founded": "2020"
+  },
+  {
+    "name": "Praveen K. Varshney, FCPA, FCA",
+    "Companyname": "Varshney Capital Corp.",
+    "website": "http://www.varshneycapital.com",
+    "Industry": "Venture Capital and Private Equity Principals",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Vancouver, British Columbia",
+    "Type": "Privately Held",
+    "Founded": "When Founded not found"
+  },
+  {
+    "name": "Arnie Isaacs",
+    "Companyname": "Private Company",
+    "website": "http://buzz2bucks.com",
+    "Industry": "Advertising Services",
+    "CompanySize": "11-50 employees",
+    "Headquater": "New York, NY",
+    "Type": "Privately Held",
+    "Founded": "When Founded not found"
+  },
+  {
+    "name": "Beth Silverberg",
+    "Companyname": "The Sports Girls LLC",
+    "website": "http://www.thesportsgirls.com",
+    "Industry": "Media Production",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Hollywood",
+    "Type": "Public Company",
+    "Founded": "2011"
+  },
+  {
+    "name": "Tyrrell Smith",
+    "Companyname": "PostNet International Franchise Corporation",
+    "website": "http://www.PostNet.com",
+    "Industry": "Printing Services",
+    "CompanySize": "501-1,000 employees",
+    "Headquater": "Lakewood, CO",
+    "Type": "Privately Held",
+    "Founded": "1992"
   },
   {
     "name": "Dr. Shekhar Pawar",
@@ -240,94 +360,104 @@
     "Founded": "2022"
   },
   {
-    "name": "Christian Moreno",
-    "Companyname": "GoKapital",
-    "website": "https://www.GoKapital.com",
-    "Industry": "Financial Services",
-    "CompanySize": "11-50 employees",
-    "Headquater": "Miami, Florida",
+    "name": "Chima Nwala Executive Coach, Turo Host, Writer, Author",
+    "Companyname": "Hangout Corporation",
+    "website": "http://www.hangoutcorp.com",
+    "Industry": "IT Services and IT Consulting",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Seattle, Washington",
     "Type": "Privately Held",
-    "Founded": "2013"
+    "Founded": "1996"
   },
   {
-    "name": "Andres Diaz Martinez",
-    "Companyname": "Plug and Play Tech Center",
-    "website": "https://www.plugandplaytechcenter.com/",
-    "Industry": "Venture Capital and Private Equity Principals",
-    "CompanySize": "501-1,000 employees",
-    "Headquater": "Sunnyvale, CA",
-    "Type": "Privately Held",
+    "name": "Taewook K.",
+    "Companyname": "Einstrong Foundation",
+    "website": "https://www.einstrong.org/",
+    "Industry": "Philanthropic Fundraising Services",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Pasadena, CA",
+    "Type": "Nonprofit",
+    "Founded": "When Founded not found"
+  },
+  {
+    "name": "Lisa Nelson",
+    "Companyname": "Velvet Suite, Inc.",
+    "website": "http://www.velvetsuite.com",
+    "Industry": "Executive Offices",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Reston, VIRGINIA",
+    "Type": "Public Company",
     "Founded": "2006"
   },
   {
-    "name": "Nasir T.",
-    "Companyname": "Upwork",
-    "website": "https://www.upwork.com/",
+    "name": "Itay Komorovski",
+    "Companyname": "Call4Peace LLC.",
+    "website": "https://call4peace.com",
     "Industry": "Technology, Information and Internet",
-    "CompanySize": "501-1,000 employees",
-    "Headquater": "San Francisco, California",
-    "Type": "Public Company",
-    "Founded": "2015"
-  },
-  {
-    "name": "Nic Solecki",
-    "Companyname": "Marquette Associates",
-    "website": "http://www.marquetteassociates.com",
-    "Industry": "Financial Services",
-    "CompanySize": "51-200 employees",
-    "Headquater": "Chicago, IL",
-    "Type": "Privately Held",
-    "Founded": "1986"
-  },
-  {
-    "name": "Linda Goetze",
-    "Companyname": "Blockchain Chamber of Commerce",
-    "website": "http://www.blockchainchamber.org",
-    "Industry": "Information Technology & Services",
     "CompanySize": "2-10 employees",
-    "Headquater": "Atlanta, GA",
-    "Type": "Nonprofit",
-    "Founded": "2017"
+    "Headquater": "Jersey City, New Jersey",
+    "Type": "Privately Held",
+    "Founded": "2005"
   },
   {
-    "name": "Issa jérémy Victor",
-    "Companyname": "Camelcoin Project",
-    "website": "http://www.camelcoin.io",
-    "Industry": "Financial Services",
+    "name": "Jason B.",
+    "Companyname": "Commonwealth Capital LLC",
+    "website": "https://commonwealthcapital.com",
+    "Industry": "Venture Capital and Private Equity Principals",
     "CompanySize": "11-50 employees",
-    "Headquater": "San Jose, Carmen district",
-    "Type": "Nonprofit",
-    "Founded": "2020"
+    "Headquater": "West Palm Beach, Florida",
+    "Type": "Privately Held",
+    "Founded": "1998"
   },
   {
-    "name": "Amir Tabei",
-    "Companyname": "Dallas Museum of Art",
-    "website": "http://www.DMA.org",
-    "Industry": "Museums, Historical Sites, and Zoos",
-    "CompanySize": "201-500 employees",
-    "Headquater": "Dallas, TX",
-    "Type": "Nonprofit",
-    "Founded": "1903"
+    "name": "Sergey Shayakhmetov",
+    "Companyname": "Binpong",
+    "website": "https://binpong.com",
+    "Industry": "Mobile Gaming Apps",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Dover, Delaware",
+    "Type": "Partnership",
+    "Founded": "2023"
   },
   {
-    "name": "Karlo Turk",
-    "Companyname": "Credit Metaverse",
-    "website": "https://creditmetaverse.io/",
-    "Industry": "الخدمات المالية",
-    "CompanySize": "١١- ٥٠ موظف",
-    "Headquater": "Dubai",
-    "Type": "شركة يملكها عدد قليل من الأشخاص",
+    "name": "David Carmell",
+    "Companyname": "DealRockit",
+    "website": "https://dealrockit.com",
+    "Industry": "Technology, Information and Internet",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Chicago, Illinois",
+    "Type": "Privately Held",
+    "Founded": "2019"
+  },
+  {
+    "name": "Robert Toker",
+    "Companyname": "Temo Power Inc.",
+    "website": "http://www.temopower.com/",
+    "Industry": "Renewable Energy Semiconductor Manufacturing",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Somerset, New Jersey",
+    "Type": "Privately Held",
+    "Founded": "2018"
+  },
+  {
+    "name": "Eric Blue",
+    "Companyname": "Nevly",
+    "website": "https://nevly.com",
+    "Industry": "Financial Services",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Washington, DC",
+    "Type": "Privately Held",
     "Founded": "2021"
   },
   {
-    "name": "David Lucatch",
-    "Companyname": "Liquid Avatar Technologies",
-    "website": "http://www.liquidavatartechnologies.com",
-    "Industry": "Financial Services",
+    "name": "Jeff Brooks ★",
+    "Companyname": "Brooks Recruiting",
+    "website": "https://www.brooksrecruiting.com",
+    "Industry": "Staffing and Recruiting",
     "CompanySize": "2-10 employees",
-    "Headquater": "Burnaby, British Columbia",
-    "Type": "Partnership",
-    "Founded": "2017"
+    "Headquater": "Chicago, Illinois",
+    "Type": "Privately Held",
+    "Founded": "2015"
   },
   {
     "name": "Dan Hannigan-Daley",
@@ -340,13 +470,473 @@
     "Founded": "2002"
   },
   {
-    "name": "Lee Richter",
-    "Companyname": "Event Planners Association",
-    "website": "http://eventplannersassociation.com/",
-    "Industry": "Events Services",
+    "name": "Konstantin J.",
+    "Companyname": "Bitcoin Inc.",
+    "website": "twitter.com/Nodefather",
+    "Industry": "Utilities",
     "CompanySize": "11-50 employees",
-    "Headquater": "Oakland, California",
+    "Headquater": "Las Vegas, NV",
+    "Type": "Privately Held",
+    "Founded": "2011"
+  },
+  {
+    "name": "Jean-Gabriel Paquette",
+    "Companyname": "Seaclub",
+    "website": "https://seaclub.io?utm_source=linkedin&utm_medium=bizpage",
+    "Industry": "Outsourcing and Offshoring Consulting",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Montreal",
+    "Type": "Privately Held",
+    "Founded": "2022"
+  },
+  {
+    "name": "Cori Baldasare",
+    "Companyname": "Demand.io",
+    "website": "https://demand.io",
+    "Industry": "Technology, Information and Internet",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Los Angeles, California",
+    "Type": "Privately Held",
+    "Founded": "2009"
+  },
+  {
+    "name": "David Lucatch",
+    "Companyname": "Liquid Avatar Technologies",
+    "website": "http://www.liquidavatartechnologies.com",
+    "Industry": "Financial Services",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Burnaby, British Columbia",
+    "Type": "Partnership",
+    "Founded": "2017"
+  },
+  {
+    "name": "Brett Berhoff",
+    "Companyname": "Strategy.xyz",
+    "website": "http://www.Strategy.xyz",
+    "Industry": "Executive Offices",
+    "CompanySize": "51-200 employees",
+    "Headquater": "San Francisco, CA",
+    "Type": "Privately Held",
+    "Founded": "When Founded not found"
+  },
+  {
+    "name": "Daniel Addison, MSHI",
+    "Companyname": "Health Blockchain Security Services (HCISS) LLC",
+    "website": "http://hciss.io",
+    "Industry": "IT Services and IT Consulting",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Chicago, Illinois",
+    "Type": "Self-Owned",
+    "Founded": "2020"
+  },
+  {
+    "name": "Camila Farani",
+    "Companyname": "GAA Investments",
+    "website": "https://www.gaainvestments.com",
+    "Industry": "Investment Management",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Weston, Flórida",
+    "Type": "Privately Held",
+    "Founded": "2017"
+  },
+  {
+    "name": "Matt Coleman",
+    "Companyname": "FansXR",
+    "website": "http://www.fansxr.com",
+    "Industry": "Software Development",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Las Vegas, NEVADA (NV)",
+    "Type": "Privately Held",
+    "Founded": "2018"
+  },
+  {
+    "name": "Neor Basteker",
+    "Companyname": "Crypto Bank",
+    "website": "http://www.crypto-bank.io",
+    "Industry": "Financial Services",
+    "CompanySize": "10,001+ employees",
+    "Headquater": "Sheridan, Wyoming",
+    "Type": "Privately Held",
+    "Founded": "2018"
+  },
+  {
+    "name": "Gene Monaco",
+    "Companyname": "MediTechnix Incorporated",
+    "website": "http://meditechnix.com",
+    "Industry": "Hospitals and Health Care",
+    "CompanySize": "10,001+ employees",
+    "Headquater": "Headquater location not found",
+    "Type": "Privately Held",
+    "Founded": "2010"
+  },
+  {
+    "name": "Denny Darmo",
+    "Companyname": "Snipitz",
+    "website": "http://www.snipitz.com",
+    "Industry": "Online Audio and Video Media",
+    "CompanySize": "11-50 employees",
+    "Headquater": "McKinney, TX",
+    "Type": "Privately Held",
+    "Founded": "2019"
+  },
+  {
+    "name": "Michael J Levas",
+    "Companyname": "US Capital",
+    "website": "https://uscapital.com",
+    "Industry": "Investment Banking",
+    "CompanySize": "51-200 employees",
+    "Headquater": "San Francisco, CA",
+    "Type": "Privately Held",
+    "Founded": "1998"
+  },
+  {
+    "name": "Alejandro Hernández Bringas",
+    "Companyname": "MCM Telecom",
+    "website": "https://www.mcmtelecom.com",
+    "Industry": "Telecommunications",
+    "CompanySize": "201-500 employees",
+    "Headquater": "México, CDMX",
     "Type": "Public Company",
-    "Founded": "2005"
+    "Founded": "1996"
+  },
+  {
+    "name": "Nina Sichtermann",
+    "Companyname": "Chief",
+    "website": "http://chief.com",
+    "Industry": "Think Tanks",
+    "CompanySize": "51-200 employees",
+    "Headquater": "New York, NY",
+    "Type": "Privately Held",
+    "Founded": "2019"
+  },
+  {
+    "name": "Dan Kehoe",
+    "Companyname": "4cE",
+    "website": "Website not Found",
+    "Industry": "Business Consulting and Services",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Atlanta, Georgia",
+    "Type": "Privately Held",
+    "Founded": "2019"
+  },
+  {
+    "name": "Amir Tabei",
+    "Companyname": "Dallas Museum of Art",
+    "website": "http://www.DMA.org",
+    "Industry": "Museums, Historical Sites, and Zoos",
+    "CompanySize": "201-500 employees",
+    "Headquater": "Dallas, TX",
+    "Type": "Nonprofit",
+    "Founded": "1903"
+  },
+  {
+    "name": "🏛Loel K. Wood🏛",
+    "Companyname": "Blue Diamond Almonds Global Ingredients",
+    "website": "http://www.bdingredients.com/",
+    "Industry": "Food and Beverage Manufacturing",
+    "CompanySize": "1,001-5,000 employees",
+    "Headquater": "Sacramento, CA",
+    "Type": "Privately Held",
+    "Founded": "1910"
+  },
+  {
+    "name": "Dr. Jamilah Merrick",
+    "Companyname": "Lucid3",
+    "website": "Website not Found",
+    "Industry": "Technology, Information and Internet",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Silicon Valley, CA",
+    "Type": "Privately Held",
+    "Founded": "2023"
+  },
+  {
+    "name": "Serhiy Kharytonov",
+    "Companyname": "JetSoftPro",
+    "website": "https://jetsoftpro.com/",
+    "Industry": "IT Services and IT Consulting",
+    "CompanySize": "201-500 employees",
+    "Headquater": "New York",
+    "Type": "Privately Held",
+    "Founded": "2014"
+  },
+  {
+    "name": "⚽ Neissan Monadjem",
+    "Companyname": "LINKSPORTS INTERNATIONAL CORP.",
+    "website": "http://www.linksports.com",
+    "Industry": "Spectator Sports",
+    "CompanySize": "11-50 employees",
+    "Headquater": "North York, Toronto, ON",
+    "Type": "Privately Held",
+    "Founded": "2020"
+  },
+  {
+    "name": "Ksenia Manaeva",
+    "Companyname": "Self Employed",
+    "website": "http://www.bergmandesig.com",
+    "Industry": "Graphic Design",
+    "CompanySize": "1 employee",
+    "Headquater": "Headquater location not found",
+    "Type": "Self-Employed",
+    "Founded": "When Founded not found"
+  },
+  {
+    "name": "Mark Stoner",
+    "Companyname": "Apothēka Systems Inc.",
+    "website": "https://www.apotheka.co/",
+    "Industry": "Software Development",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Beverly Hills, California",
+    "Type": "Privately Held",
+    "Founded": "2019"
+  },
+  {
+    "name": "Soren Azorian",
+    "Companyname": "Redline Blockchain",
+    "website": "https://redlineblockchain.com/",
+    "Industry": "Software Development",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Burbank, California",
+    "Type": "Privately Held",
+    "Founded": "2021"
+  },
+  {
+    "name": "Michael Zajas, MRED",
+    "Companyname": "CITIZEN CONSULTING PARTNERS",
+    "website": "www.citizencp.com",
+    "Industry": "Financial Services",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Phoenix, Arizona",
+    "Type": "Partnership",
+    "Founded": "2022"
+  },
+  {
+    "name": "Boris Kontsevoi",
+    "Companyname": "Forbes Technology Council",
+    "website": "http://forbestechcouncil.com",
+    "Industry": "Civic and Social Organizations",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Boston, MA",
+    "Type": "Privately Held",
+    "Founded": "2015"
+  },
+  {
+    "name": "Alison González",
+    "Companyname": "Lil Horse powered by DrakeTech",
+    "website": "https://www.lilhorselab.com/",
+    "Industry": "Design",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Toronto, ON",
+    "Type": "Partnership",
+    "Founded": "2020"
+  },
+  {
+    "name": "Jeanine \"Nini\" Martin, FACHE/FHIMSS Gates Fellow Olympic athlete",
+    "Companyname": "ZeaMed",
+    "website": "https://www.zeamed.com",
+    "Industry": "Hospitals and Health Care",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Atlanta, GA",
+    "Type": "Privately Held",
+    "Founded": "2018"
+  },
+  {
+    "name": "William Naranjo",
+    "Companyname": "MergersCorp M&A International",
+    "website": "http://MergersCorp.com",
+    "Industry": "Investment Banking",
+    "CompanySize": "51-200 employees",
+    "Headquater": "New York",
+    "Type": "Privately Held",
+    "Founded": "When Founded not found"
+  },
+  {
+    "name": "Daniel Barry",
+    "Companyname": "BCAIV - BlockChain & AI Ventures",
+    "website": "Website not Found",
+    "Industry": "Marketing Services",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Los Angeles, California",
+    "Type": "Privately Held",
+    "Founded": "2017"
+  },
+  {
+    "name": "Timothy Tello",
+    "Companyname": "3thix",
+    "website": "www.3thix.com",
+    "Industry": "Computer Games",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Austin, Texas",
+    "Type": "Privately Held",
+    "Founded": "2023"
+  },
+  {
+    "name": "Dr. Kanth Miriyala, Ph.D",
+    "Companyname": "Block21x Capital",
+    "website": "https://block21x.capital/",
+    "Industry": "Financial Services",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Irving, Texas",
+    "Type": "Privately Held",
+    "Founded": "When Founded not found"
+  },
+  {
+    "name": "Rohail Khan",
+    "Companyname": "Westchester Group Investment Management, Inc.",
+    "website": "http://www.wgimglobal.com",
+    "Industry": "Investment Management",
+    "CompanySize": "51-200 employees",
+    "Headquater": "Champaign, IL",
+    "Type": "Privately Held",
+    "Founded": "1986"
+  },
+  {
+    "name": "Jeremy Joo",
+    "Companyname": "CryptoPool",
+    "website": "www.cryptopool.money",
+    "Industry": "Blockchain Services",
+    "CompanySize": "2-10 employees",
+    "Headquater": "California, San Francisco",
+    "Type": "Privately Held",
+    "Founded": "2022"
+  },
+  {
+    "name": "Joel Garcia",
+    "Companyname": "AllCode",
+    "website": "https://www.allcode.com",
+    "Industry": "Technology, Information and Internet",
+    "CompanySize": "51-200 employees",
+    "Headquater": "San Francisco, California",
+    "Type": "Privately Held",
+    "Founded": "2015"
+  },
+  {
+    "name": "Florian Krueger",
+    "Companyname": "Minfo",
+    "website": "http://www.minfo.co/",
+    "Industry": "Advertising Services",
+    "CompanySize": "11-50 employees",
+    "Headquater": "New York, New York",
+    "Type": "Self-Owned",
+    "Founded": "2012"
+  },
+  {
+    "name": "Kirk Borne, Ph.D.",
+    "Companyname": "DataPrime",
+    "website": "https://prime.ai",
+    "Industry": "Data Infrastructure and Analytics",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Loudon, VA",
+    "Type": "Privately Held",
+    "Founded": "2018"
+  },
+  {
+    "name": "Dr. (Sam) Swapna Sinha",
+    "Companyname": "Strategism, Inc",
+    "website": "http://www.strategisminc.com",
+    "Industry": "IT Services and IT Consulting",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Fremont, CA",
+    "Type": "Privately Held",
+    "Founded": "2008"
+  },
+  {
+    "name": "Jonathan Ewert",
+    "Companyname": "CapZone Analytics",
+    "website": "capzoneanalytics.com",
+    "Industry": "Financial Services",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Dallas, Texas",
+    "Type": "Partnership",
+    "Founded": "2021"
+  },
+  {
+    "name": "Hugo Cantave-Jean",
+    "Companyname": "GSHI",
+    "website": "http://www.zinastore.com",
+    "Industry": "Information Technology & Services",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Pierrefonds, Quebec",
+    "Type": "Partnership",
+    "Founded": "2006"
+  },
+  {
+    "name": "David Starck",
+    "Companyname": "Infuse",
+    "website": "http://www.infuse.it",
+    "Industry": "IT Services and IT Consulting",
+    "CompanySize": "11-50 employees",
+    "Headquater": "London, London",
+    "Type": "Privately Held",
+    "Founded": "2002"
+  },
+  {
+    "name": "Michael Rubinelli",
+    "Companyname": "Worldwide Asset eXchange (WAX)",
+    "website": "https://wax.io",
+    "Industry": "Computer Games",
+    "CompanySize": "51-200 employees",
+    "Headquater": "Grand Cayman",
+    "Type": "Privately Held",
+    "Founded": "2015"
+  },
+  {
+    "name": "Jay Schweid",
+    "Companyname": "ephelants",
+    "website": "http://ephelants.com",
+    "Industry": "Entertainment Providers",
+    "CompanySize": "2-10 employees",
+    "Headquater": "New York, NY",
+    "Type": "Privately Held",
+    "Founded": "2006"
+  },
+  {
+    "name": "Ali Hussein Kassim",
+    "Companyname": "Kinesis Money",
+    "website": "https://kinesis.money/",
+    "Industry": "Financial Services",
+    "CompanySize": "51-200 employees",
+    "Headquater": "Cayman Islands",
+    "Type": "Privately Held",
+    "Founded": "2018"
+  },
+  {
+    "name": "Fredrik Grothe-Eberhardt",
+    "Companyname": "Stealth Startup",
+    "website": "https://en.wikipedia.org/wiki/Stealth_startup",
+    "Industry": "Technology, Information and Internet",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Mountain View, WY",
+    "Type": "Privately Held",
+    "Founded": "When Founded not found"
+  },
+  {
+    "name": "Brijesh Kamani",
+    "Companyname": "Rapidise.io",
+    "website": "https://rapidise.io",
+    "Industry": "Software Development",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Milpitas, California",
+    "Type": "Privately Held",
+    "Founded": "2021"
+  },
+  {
+    "name": "Jon Trask",
+    "Companyname": "Blockchain Guru",
+    "website": "https://www.blockchainguru.ca",
+    "Industry": "IT Services and IT Consulting",
+    "CompanySize": "11-50 employees",
+    "Headquater": "Calgary, Alberta",
+    "Type": "Privately Held",
+    "Founded": "2017"
+  },
+  {
+    "name": "Ramin Redjai",
+    "Companyname": "MAMRAMIM Loan & Note Marketplace",
+    "website": "www.MAMRAMIM.com",
+    "Industry": "Internet Marketplace Platforms",
+    "CompanySize": "2-10 employees",
+    "Headquater": "Irvine, California",
+    "Type": "Privately Held",
+    "Founded": "2022"
   }
 ]
